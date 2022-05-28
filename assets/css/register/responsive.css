@@ -1,0 +1,39 @@
+/* PC max size*/
+@media (min-width: 1024px) and (max-width: 1239px) {
+}
+
+/* PC */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .auth-form__heading {
+        text-align: center;
+    }
+}
+
+/* Mobile và Tablet */
+@media (max-width: 1023px) {
+    .header {
+        display: none;
+    }
+
+    .grid-center__mobile {
+        display: block;
+        text-align: center;
+    }
+
+    .auth-form__heading {
+        text-align: center;
+    }
+
+    .auth-form__content {
+        display: block;
+    }
+}
+
+/* Mobile min size */
+@media (max-width: 380px) {
+    .auth-form__heading {
+        text-align: center;
+    }
+}
+
+@media (max-width: 374px) {}
