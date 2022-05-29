@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Leader board</title>
     <link href="assets/fonts/fontawesome-free-5.15.3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
@@ -32,18 +34,505 @@
 
         <div id="leader-board" class="grid row no-gutters">
 
-            <div class="sidebar-left p-0 t-0 m-0">
-                SIDEBAR-LEFT
-            </div>
-
             <div class="main-body row no-gutters p-10 t-12 m-12">
-                <div class="info p-4 t-4 m-12">Info</div>
-                <div class="user p-5 t-8 m-12">Trader</div>
-                <div class="card p-3 t-5 m-12">Profile</div>
-                <div class="feedback p-4 t-7 m-12">Feedback</div>
-                <div class="pending p-2 t-5 m-12">Pending</div>
-                <div class="active p-3 t-7 m-12">Active</div>
-                <div class="history p-3 t-12 m-12">History</div>
+
+                <div class="info-box p-4 t-4 m-12">
+
+                    <div class="column p-6 t-6 m-6">
+                        <div class="row">
+                            <div class="col p-12 t-12 m-12">
+                                <img src="./assets/img/leader-board/avt.png" alt="" class="img-avt">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col p-12 t-12 m-12">
+                                <button class="following btn">Following</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column p-6 t-6 m-6">
+                        <div class="row p-12 t-12 m-12">
+                            <div class="hit-rate box-1">
+                                <h6 class="title">
+                                    HIT RATE
+                                </h6>
+                                <h2 class="percent">
+                                    76.08%
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="row p-12 t-12 m-12">
+                            <div class="day-pnl box-1">
+                                <h6 class="title">
+                                    7 DAYS PNL
+                                </h6>
+                                <h2 class="percent">
+                                    +80.15%
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="row p-12 t-12 m-12">
+                            <div class="rating box-1">
+                                <h6 class="title">
+                                    RATING:
+                                </h6>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-box p-5 t-8 m-12">
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <div class="trader-name box-1">
+                                <h2>TRADER 1 NAME</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <div class="description box-1">
+                                <h2>FUTURE - SPOT - TRADING</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-6 t-6 m-6">
+                            <div class="follower box-1">
+                                <h3>129 Follower</h3>
+                            </div>
+                        </div>
+                        <div class="col p-6 t-6 m-6">
+                            <button class="rate box-1">
+                                <h3>Đánh giá</h3>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-box p-3 t-5 m-12">
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <div class="card box-1">
+                                <h2>PROFILE</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <img src="./assets/img/leader-board/card.png" alt="" class="img-card">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feedback-box p-4 t-7 m-12">
+                    <div class="box-show">
+                        <div class="row">
+                            <div class="col p-12 t-12 m-12">
+                                <h2>Feedback</h2>
+                            </div>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col p-12 t-12 m-12">
+                                            <div class="feedback-mes">
+                                                <div class="row">
+                                                    <p class="title">By <span>Ericxspace</span> . Mar 18, 2022</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="body">Lorem Ipsum is simply dummy text of the printing and
+                                                        typesetting
+                                                        industry. Lorem Ipsum has been the industry’s standard dummy
+                                                        text
+                                                        ever since the
+                                                        1500s...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col p-12 t-12 m-12">
+                                            <div class="feedback-mes">
+                                                <div class="row">
+                                                    <p class="title">By <span>Ericxspace</span> . Mar 18, 2022</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="body">Lorem Ipsum is simply dummy text of the printing and
+                                                        typesetting
+                                                        industry. Lorem Ipsum has been the industry’s standard dummy
+                                                        text
+                                                        ever since the
+                                                        1500s...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <div class="col p-12 t-12 m-12">
+                                            <div class="feedback-mes">
+                                                <div class="row">
+                                                    <p class="title">By <span>Ericxspace</span> . Mar 18, 2022</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="body">Lorem Ipsum is simply dummy text of the printing and
+                                                        typesetting
+                                                        industry. Lorem Ipsum has been the industry’s standard dummy
+                                                        text
+                                                        ever since the
+                                                        1500s...</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="pending-box p-2 t-5 m-12">
+                    <div class="box-show">
+                        <div class="row">
+                            <div class="col p-12 t-12 m-12">
+                                <h3>Các lệnh đang Pending</h3>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="long">
+                                                LONG
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="long">
+                                                LONG
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="short">
+                                                SHORT
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="short">
+                                                SHORT
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="active-box p-3 t-7 m-12">
+                    <div class="box-show">
+                        <div class="row">
+                            <div class="col p-12 t-12 m-12">
+                                <h2>Các lệnh đang Active</h2>
+                            </div>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="long">
+                                                LONG
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+
+                                        <div class="row pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent-green">15.64%</p>
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="long">
+                                                LONG
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent-green">15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="short">
+                                                SHORT
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent-red">15.64%</p>
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="row">
+                                            <p>BTC/USDT</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row">
+                                            <p class="short">
+                                                SHORT
+                                            </p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="row pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent-red">15.64%</p>
+                                        </div>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="history-box p-3 t-12 m-12">
+                    <div class="box-show">
+                        <div class="row">
+                            <div class="col p-7 t-7 m-7">
+                                <h2>History</h2>
+                            </div>
+                            <div class="col p-5 t-5 m-5">
+                                <button>See more..</button>
+                            </div>
+                        </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-red">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-green">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="row">
+                                        <p>BTC/USDT</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="row pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent-green">+15.64%</p>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
 
             <div class="sidebar-right p-2 t-0 m-0">
