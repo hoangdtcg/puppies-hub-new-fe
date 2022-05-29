@@ -117,7 +117,7 @@ p.pnl-value {
 }
 
 button.edit {
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-left: 5px;
     margin-right: 5px;
     background-color: #868686;
@@ -155,11 +155,14 @@ button.edit {
     color: #B81D1D;
 }
 
-.info.price,
-.info.pnl {
+.pending .info.price, .info.pnl {
     border-radius: 0 5px 5px 0;
     padding-right: 5px;
     box-sizing: border-box;
+}
+
+.info.price, .info.pnl{
+    text-align: center;
 }
 
 .trading-list .col {
@@ -248,7 +251,7 @@ textarea {
 }
 
 .popup h3 {
-    margin: 10px;
+    /* margin: 10px; */
     text-align: left;
 }
 
@@ -261,7 +264,7 @@ textarea {
     border-radius: 15px;
 }
 
-.modal-content p {
+.modal-content h3 {
     margin: 0;
     margin-bottom: 5px;
     text-align: left;
@@ -276,8 +279,14 @@ textarea {
     box-sizing: border-box;
 }
 
+.modal .row .title {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
 .modal-content input {
-    height: 35px;
+    height: 30px;
     background-color: #2F2F2F !important;
     padding-left: 10px;
     border-radius: 10px;
