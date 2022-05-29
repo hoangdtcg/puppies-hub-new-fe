@@ -1,0 +1,14 @@
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+}
+
+html{
+    font-size: 30px;
+    text-align: center;
+    color:aliceblue;
+}
+
+.container>*{
+    border: 1px solid white;
+}

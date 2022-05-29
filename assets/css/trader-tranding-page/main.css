@@ -1,0 +1,19 @@
+body {
+    background: #000000;
+    background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+div {
+    border: 1px solid white;
+}
+
+.main-body{
+    display:flex;
+    flex-direction: row;
+}
