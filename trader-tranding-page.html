@@ -37,9 +37,102 @@
             </div>
 
             <div class="main-body row no-gutters p-8 t-12 m-12">
-                <div class="char p-8 t-12 m-12">Chart</div>
-                <div class="buy p-4 t-12 m-12">Buy</div>
-                <div class="pending p-3 t-5 m-12">Pending</div>
+
+                <!-- Chart -->
+                <div class="chart p-8 t-12 m-12">
+                    <img src="./assets/img/trader-trading-page/chart.png" alt="" class="img-chart">
+                </div>
+
+                <!-- Buy -->
+                <div class="trading-info p-4 t-12 m-12">
+                    <div class="row">
+                        <div class="col p-6 t-6 m-6">
+                            <button class="btn btn-green">Long</button>
+                        </div>
+                        <div class="col p-6 t-6 m-6">
+                            <button class="btn btn-red">Short</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <input type="text" class="entry" placeholder="Entry">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <input type="text" class="stop-loss" placeholder="Stop Loss">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-8 t-8 m-8">
+                            <input type="text" class="take-profit" placeholder="TAKE PROFIT +">
+                        </div>
+                        <div class="col p-4 t-4 m-4">
+                            <input type="text" class="percent" placeholder="%">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-8 t-8 m-8">
+                            <input type="text" class="take-profit" placeholder="TAKE PROFIT +">
+                        </div>
+                        <div class="col p-4 t-4 m-4">
+                            <input type="text" class="percent" placeholder="%">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-8 t-8 m-8">
+                            <input type="text" class="take-profit" placeholder="TAKE PROFIT +">
+                        </div>
+                        <div class="col p-4 t-4 m-4">
+                            <input type="text" class="percent" placeholder="%">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <input type="text" class="risk" placeholder="RISK">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p-12 t-12 m-12">
+                            <button class="btn btn-green">BUY</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Pending -->
+                <div class="pending p-3 t-5 m-12">
+
+                    <div class="row">
+                        <div class="title">
+                            <h4>Các lệnh đang Pending</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <table style="border-spacing: 0;">
+                            <tr>
+                                <td class="info coin">BTC/USDT</td>
+                                <td class="info command">Long</td>
+                                <td class="info price">
+                                    <p class="entry">Entry</p>
+                                    <p class="value">31,123.07</p>
+                                </td>
+                                <td>
+                                    <button class="edit btn">EDIT</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
                 <div class="active p-6 t-7 m-12">Active</div>
                 <div class="trader-communication p-3 t-12 m-12">Trader Communication</div>
             </div>

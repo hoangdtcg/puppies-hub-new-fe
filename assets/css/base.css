@@ -6,6 +6,10 @@
     --primary-color: #ee4d2d;
     --text-color: #333;
     --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+
 }
 
 * {
@@ -144,3 +148,33 @@ html {
 .select-input:hover .select-input__list {
     display: block;
 } */
+
+
+
+
+
+
+
+/* CUSTOM */
+.btn {
+    border-radius: 15px;
+    padding: 15px 0;
+    width: 100%;
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 10px;
+}
+
+.btn-green {
+    background-color: var(--green-color);
+}
+
+.btn-red {
+    background-color: var(--red-color);
+}

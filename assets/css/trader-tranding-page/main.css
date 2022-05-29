@@ -10,10 +10,77 @@ html {
 }
 
 div {
-    border: 1px solid white;
+    padding: 0 5px;
+    box-sizing: border-box;
 }
 
-.main-body{
-    display:flex;
+.main-body {
+    display: flex;
     flex-direction: row;
+}
+
+/**********************************************
+MAIN-BODY
+***********************************************/
+
+.main-body {
+    background-color: goldenrod;
+}
+
+.chart img {
+    width: 100%;
+}
+
+.trading-info .btn {
+    margin-bottom: 10px;
+}
+
+.trading-info input {
+    width: 100%;
+    border-radius: 15px;
+    color: var(--white-color);
+    background-color: var(--brown-color);
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.trading-info input.entry::placeholder,
+.trading-info input.stop-loss::placeholder {
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+
+input[type="text"].entry {
+    background-color: var(--yellow-color);
+}
+
+.pending {
+    border-radius: 15px;
+    padding: 30px 20px;
+    background-color: var(--brown-color);
+}
+
+.pending .title {
+    /* color: var(--white-color); */
+}
+
+.pending .info {
+    background: #6d3d3d;
+}
+
+.pending .coin {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
