@@ -281,7 +281,6 @@ input, textarea {
     padding-left: 10px;
     border-radius: 10px;
     border: none;
-    color:white;
 }
 
 .modal-content input[readonly] {
