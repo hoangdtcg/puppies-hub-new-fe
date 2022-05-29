@@ -81,7 +81,7 @@ html {
     background-color: #999;
 }
 
-/* .select-input {
+.select-input {
     position: relative;
     height: 34px;
     min-width: 200px;
@@ -143,4 +143,4 @@ html {
 
 .select-input:hover .select-input__list {
     display: block;
-} */
+}

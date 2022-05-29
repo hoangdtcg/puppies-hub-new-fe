@@ -1,0 +1,146 @@
+body {
+    background: #000000;
+    background-image: url("../../img/header/background_authen.png");
+    color: var(--white-color);
+}
+
+.header {
+    position: relative;
+}
+
+.header__container {
+    position: relative;
+    padding: 24px;
+}
+
+.header__navbar,
+.header__navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    list-style: none;
+}
+
+.header__navbar-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__navbar-input {
+    outline: none;
+    border: none;
+    padding: 16px 12px;
+    border-radius: 16px;
+    font-size: 1.4rem;
+}
+
+.header__navbar-input[type="text"] {
+    background-color: #454545;
+    color: var(--white-color);
+    width: 339px;
+}
+
+.header__navbar-item {
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    word-break: break-word;
+    text-align: center;
+}
+
+.header__navbar-item:hover {
+    color: var(--yellow-color);
+    border-bottom: 1px solid var(--yellow-color);
+}
+
+.header__navbar-user {
+    position: relative;
+}
+
+.header__navbar-link {
+    text-decoration: none;
+    color: var(--white-color);
+    display: flex;
+    cursor: pointer;
+}
+
+.header__navbar-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.header-logo__img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__navbar-icon {
+    height: 100%;
+    object-fit: none;
+}
+
+.header__navbar-name {}
+
+.header__navbar-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 9px;
+}
+
+.header__navbar-premium {
+    background-color: var(--yellow-color);
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.header__notify {
+    display: none;
+    position: absolute;
+    min-width: 179px;
+    background-color: var(--white-color);
+    list-style: none;
+    z-index: 2;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 2px;
+    top: 105%;
+    left: 8px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.header__navbar-user:hover .header__notify {
+    display: block;
+}
+
+.header__navbar-account {
+    list-style: none;
+    padding-left: 4px;
+}
+
+.header__navbar-redirect {
+    color: #333;
+    font-size: 1.3rem;
+    padding: 8px 12px;
+}
+
+.header__navbar-redirect:hover {
+    background-color: #333;
+    cursor: pointer;
+    font-weight: 400;
+    color: var(--white-color);
+}
+
+.header__modal {
+    display: none;
+}
