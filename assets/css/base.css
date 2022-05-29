@@ -85,7 +85,7 @@ html {
     background-color: #999;
 }
 
-/* .select-input {
+.select-input {
     position: relative;
     height: 34px;
     min-width: 200px;
@@ -147,8 +147,7 @@ html {
 
 .select-input:hover .select-input__list {
     display: block;
-} */
-
+}
 
 /* CUSTOM */
 .btn {
@@ -161,9 +160,10 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    opacity:.8;
+    opacity: .8;
 }
-.btn:hover{
+
+.btn:hover {
     opacity: 1;
 }
 
@@ -174,4 +174,3 @@ html {
 .btn-red {
     background-color: var(--red-color);
 }
-
