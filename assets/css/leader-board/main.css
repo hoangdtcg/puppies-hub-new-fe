@@ -68,18 +68,18 @@ div {
 
 .info-box .follow {
     width: 100%;
-    height: 58px;
-    background-image: url(../../img/leader-board/button.png);
-    background-color: var(--violet-color);
-    background-size: contain;
+    height: 55px;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
 }
 
 .info-box .following {
     width: 100%;
-    height: 58px;
-    background-image: url(../../img/leader-board/button.png);
-    background-color: var(--green-color);
-    background-size: contain;
+    height: 55px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
 }
 
 .info-box .hit-rate,
