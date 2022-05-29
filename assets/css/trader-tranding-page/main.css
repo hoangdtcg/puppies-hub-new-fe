@@ -318,3 +318,9 @@ div.profit {
     text-decoration: none;
     cursor: pointer;
 }
+.btn{
+    font-size: large;
+}
+.edit{
+    font-size: 10px;
+}
