@@ -53,7 +53,7 @@ div {
 .pending-box,
 .active-box,
 .history-box {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .info-box img {
