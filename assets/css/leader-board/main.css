@@ -1,0 +1,22 @@
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+div{
+    border: 1px solid white;
+}
+
+.main-body,
+.sidebar-left,
+.daily-leader-board,
+.weekly-leader-board {
+    display: flex;
+    flex-direction: row;
+}
