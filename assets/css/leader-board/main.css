@@ -3,12 +3,17 @@ body {
     background-image: url("../../img/leader-board/background.png");
 }
 
-html{
-    font-size: 30px;
+html {
+    font-size: 20px;
     text-align: center;
-    color:aliceblue;
+    color: aliceblue;
 }
 
-.container>*{
+div {
     border: 1px solid white;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
 }
