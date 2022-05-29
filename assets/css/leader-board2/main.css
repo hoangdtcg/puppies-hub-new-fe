@@ -1,16 +1,15 @@
 body {
     background: #000000;
-    background-image: url("../../img/leader-board/background.png");
+    background-image: url("../../img/login/background_authen.png");
 }
 
-html {
-    font-size: 20px;
-    text-align: center;
-    color: aliceblue;
+.wrapper {
+    overflow: hidden;
 }
 
-div {
-    border: 1px solid white;
+.header {
+    height: var(--header-height);
+    padding: 24px;
 }
 
 .main-body,
@@ -20,3 +19,4 @@ div {
     display: flex;
     flex-direction: row;
 }
+

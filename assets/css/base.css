@@ -174,3 +174,13 @@ html {
 .btn-red {
     background-color: var(--red-color);
 }
+
+.sidebar-left, .sidebar-right {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-left img, .sidebar-right img {
+    width: 100%;
+    margin-bottom: 5px;
+}
