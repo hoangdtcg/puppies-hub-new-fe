@@ -150,25 +150,17 @@ html {
 } */
 
 
-
-
-
-
-
 /* CUSTOM */
 .btn {
-    border-radius: 15px;
-    padding: 15px 0;
+    border-radius: 10px;
+    padding: 10px 0;
     width: 100%;
     color: var(--white-color);
     cursor: pointer;
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
-    font-size: 22px;
+    font-weight: bold;
     text-transform: uppercase;
     border: none;
-    margin: 0 10px;
 }
 
 .btn-green {
@@ -178,3 +170,4 @@ html {
 .btn-red {
     background-color: var(--red-color);
 }
+
