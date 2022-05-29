@@ -218,10 +218,11 @@ input, textarea {
     border: 2px solid #ffa927;
 }
 
-.btn-close{
+.btn-close {
     background-color: #2f2f2f;
 }
-.btn-update{
+
+.btn-update {
     background-color: #8D4F7C;
 }
 
@@ -236,19 +237,20 @@ input, textarea {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
-.popup{
+.popup {
     margin: auto;
 }
 
-.popup h3{
+.popup h3 {
     margin: 10px;
     text-align: left;
 }
+
 .modal-content {
     background-color: #0B0B0B;
     margin: auto;
@@ -258,33 +260,35 @@ input, textarea {
     border-radius: 15px;
 }
 
-.modal-content p{
+.modal-content p {
     margin: 0;
     margin-bottom: 5px;
     text-align: left;
 }
 
-.modal-content input{
+.modal-content input {
     width: 100%;
 }
-.modal .row .col{
+
+.modal .row .col {
     padding: 10px 10px;
     box-sizing: border-box;
 }
 
-.modal-content input{
+.modal-content input {
     height: 35px;
-    background-color: #2F2F2F!important;
+    background-color: #2F2F2F !important;
     padding-left: 10px;
     border-radius: 10px;
     border: none;
+    color:white;
 }
 
-.modal-content input[readonly]{
-    background-color: #656565!important;
+.modal-content input[readonly] {
+    background-color: #656565 !important;
 }
 
-div.profit{
+div.profit {
     padding: 0;
     margin-top: 15px;
     margin-bottom: 0;
@@ -303,4 +307,80 @@ div.profit{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+/*TRADER DETAIL*/
+.checked {
+    color: orange;
+}
+
+.trader-data img#avatar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.trader-data .avt-follow button {
+    width: 100%;
+}
+
+.trader-data p {
+    margin: 0;
+    color: #989898;
+    font-size: 12px;
+}
+
+.trader-data h4 {
+    margin: 0;
+}
+.hit-rate h4{
+    color: #ffa800;
+}
+
+.daily-pnl h4{
+    color: #338f57;
+}
+
+span.fa.fa-star {
+    font-size: 18px;
+}
+
+.trader-data .hit-rate, .trader-data .daily-pnl {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;}
+
+.trader-data .rating {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row.border-cover .col {
+    padding: 0 10px;
+}
+
+.trader-data .data-trade {
+    padding-bottom: 5px;
+}
+
+
+.btn.btn-follow {
+    background-color: #ffa800;
+    color: #fffff;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.btn.btn-following {
+    background-color: transparent;
+    color: #ffa800;
+    font-size: 16px;
+    border: 1px solid ffa800;
+    border-radius: 5px;
 }
