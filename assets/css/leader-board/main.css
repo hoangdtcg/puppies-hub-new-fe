@@ -28,7 +28,7 @@ div {
 }
 
 .box-1 {
-    background-color: var(--violet-color);
+    background-color: rgba(0,0,0,0.6);
     border-radius: 10px;
 }
 
@@ -42,8 +42,12 @@ div {
 }
 
 .main-body {
-    padding: 61px;
-    border: 1px solid white;
+    width: 100%;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    background-image: url("../../img/leader-board/background.png");
+    margin: 20px;
 }
 
 .info-box,
@@ -57,33 +61,42 @@ div {
 }
 
 .info-box img {
-    width: 184px;
-    height: 184px;
+    width: 100%;
+    height: auto;
+}
+
+.info-box .follow {
+    width: 100%;
+    height: 58px;
+    background-image: url(../../img/leader-board/button.png);
+    background-color: var(--violet-color);
+    background-size: contain;
 }
 
 .info-box .following {
-    width: 184px;
-    height: 60px;
+    width: 100%;
+    height: 58px;
     background-image: url(../../img/leader-board/button.png);
-    background-color: var(--violet-color);
+    background-color: var(--green-color);
+    background-size: contain;
 }
 
 .info-box .hit-rate,
 .info-box .day-pnl,
 .info-box .rating {
-    padding: 15px 20px;
-    width: 80%;
-}
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;}
 
 .info-box .hit-rate,
 .info-box .day-pnl {
     margin-bottom: 10px;
-    height: 87px;
+    /* height: 87px; */
 }
 
-.info-box .hit-rate>*,
-.info-box .day-pnl>*,
-.info-box .rating>* {
+.info-box .hit-rate > *,
+.info-box .day-pnl > *,
+.info-box .rating > * {
     margin: 0;
 }
 
@@ -91,7 +104,7 @@ div {
 .info-box .day-pnl .title,
 .info-box .rating .title {
     color: var(--grey-color);
-}
+    padding-bottom: 10px;box-sizing: border-box;}
 
 .info-box .day-pnl .percent {
     color: var(--green-color);
@@ -108,14 +121,14 @@ div {
 
 .user-box .trader-name,
 .user-box .description {
-    height: 87px;
-    margin-bottom: 10px;
+    height: 80px;
+    padding: px 20px;margin-bottom: 10px;
 }
 
-.user-box .trader-name>*,
-.user-box .description>*,
-.user-box .follower>*,
-.user-box .rate>* {
+.user-box .trader-name > *,
+.user-box .description > *,
+.user-box .follower > *,
+.user-box .rate > * {
     margin: 0;
 }
 
@@ -127,7 +140,7 @@ div {
 .user-box .trader-name,
 .user-box .description {
     width: 100%;
-    line-height: 87px;
+    line-height: 80px;
 }
 
 .user-box .follower,
@@ -139,37 +152,37 @@ div {
 
 .user-box .rate {
     float: right;
-    background-color: var(--grey-color);
-    color: #C8C8C8;
-}
+    background-color: #161A1E;
+    color: var(--white-color);
+    border: none;}
 
 .card-box {
     padding: 0 35px;
 }
 
 .card-box .card {
-    width: 95%;
-    height: 87px;
+    /* width: 95%; */
+    height: 80px;
     margin-bottom: 20px;
 }
 
-.card-box .card>* {
+.card-box .card > * {
     margin: 0;
-    line-height: 87px;
+    line-height: 80px;
 }
 
 .card-box img {
-    width: 94%;
-    float: left;
+    width: 100%;
+    height: 100%;
 }
 
 .feedback-box {
     text-align: left;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .feedback-box .box-show {
-    background-color: var(--violet-color);
+    background-color: rgba(0,0,0,.6);
     padding: 30px 40px;
     border-radius: 10px;
 }
@@ -199,8 +212,8 @@ div {
 }
 
 .pending-box .box-show {
-    background-color: var(--violet-color);
-    padding: 30px 15px;
+
+    background: rgba(0,0,0,0.6);padding: 30px 15px;
     border-radius: 10px;
 }
 
@@ -383,4 +396,14 @@ div {
 .history-box .pnl-per {
     display: flex;
     flex-direction: column;
+}
+
+div#leader-board {
+    margin: auto;
+}
+
+.info-box .column {
+    padding: 0 15px;
+    /* box-sizing: border-box; */
+    width: 100%;
 }
