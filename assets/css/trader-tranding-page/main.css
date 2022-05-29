@@ -217,3 +217,90 @@ input, textarea {
 .btn-selected {
     border: 2px solid #ffa927;
 }
+
+.btn-close{
+    background-color: #2f2f2f;
+}
+.btn-update{
+    background-color: #8D4F7C;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.popup{
+    margin: auto;
+}
+
+.popup h3{
+    margin: 10px;
+    text-align: left;
+}
+.modal-content {
+    background-color: #0B0B0B;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.modal-content p{
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.modal-content input{
+    width: 100%;
+}
+.modal .row .col{
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.modal-content input{
+    height: 35px;
+    background-color: #2F2F2F!important;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-content input[readonly]{
+    background-color: #656565!important;
+}
+
+div.profit{
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/* The Close Button */
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

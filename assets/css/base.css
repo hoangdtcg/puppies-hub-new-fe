@@ -161,6 +161,10 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     border: none;
+    opacity:.8;
+}
+.btn:hover{
+    opacity: 1;
 }
 
 .btn-green {
