@@ -17,7 +17,7 @@ body {
     background-image: url("../../img/leader-board/background.png");
 }
 
-html #leader-board {
+html #leader-board .main-body{
     font-size: 20px;
     text-align: center;
     color: aliceblue;
