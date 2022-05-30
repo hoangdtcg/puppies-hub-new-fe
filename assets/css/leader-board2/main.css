@@ -99,7 +99,7 @@ html #leader-board .main-body{
 
 .daily-leader-board .table-1 img,
 .daily-leader-board .table-2 img {
-    width: 62px;
+    width: 50px;
 }
 
 .daily-leader-board .table-1 .trading-name-td,
@@ -111,7 +111,7 @@ html #leader-board .main-body{
 
 .daily-leader-board .table-1 .hirate-td,
 .daily-leader-board .table-2 .hirate-td {
-    background-color: #3A2913;
+    background-color: #7f5f207d;
     width: 15%;
 }
 
@@ -129,16 +129,16 @@ html #leader-board .main-body{
 .daily-leader-board .table-2 .trading-name-td,
 .daily-leader-board .table-2 .hirate-td,
 .daily-leader-board .table-2 .pnl-per-td {
-    height: 48px;
+    height: 40px;
     margin: auto;
-    line-height: 48px;
+    line-height: 40px;
 }
 
 .daily-leader-board .table-1 .hirate-td,
 .daily-leader-board .table-1 .pnl-per-td,
 .daily-leader-board .table-2 .hirate-td,
 .daily-leader-board .table-2 .pnl-per-td {
-    line-height: 24px;
+    line-height: 20px;
     border-radius: 4px;
     font-weight: 700;
     font-size: 0.7rem;
@@ -148,7 +148,7 @@ html #leader-board .main-body{
 .daily-leader-board .table-1 .pnl-per-td .percent,
 .daily-leader-board .table-2 .hirate-td .percent,
 .daily-leader-board .table-2 .pnl-per-td .percent {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--yellow-color);
 }
 
@@ -175,4 +175,4 @@ html #leader-board .main-body{
 
 .trading-name {font-size: 1rem;}
 
-td.trading-name-td {padding: 0px 20px;}
+td.trading-name-td {padding: 0 20px;}
