@@ -6,9 +6,28 @@
 
 /* Mobile và Tablet */
 @media (max-width: 1023px) {
+    .daily-leader-board {
+        background: rgba(0, 0, 0, 0.7);
+        border: 3px solid #FF9900;
+        padding: 10px 10px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .daily-leader-board .table-1 {
+        padding-right: 0;
+    }
+
+    .daily-leader-board .table-2 {
+        margin-top: 0;
+        padding-left: 0;
+    }
+
 }
 
 @media (max-width: 380px) {
+
     .daily-leader-board {
         background: rgba(0, 0, 0, 0.7);
         border: 3px solid #FF9900;
@@ -30,6 +49,10 @@
     .daily-leader-board .table-2 {
         margin-top: 0;
         padding-left: 0;
+    }
+
+    .daily-leader-board .table-1 {
+        padding-right: 0;
     }
 }
 

@@ -150,7 +150,7 @@ html #leader-board .main-body{
 .daily-leader-board .table-2 .pnl-per-td .percent {
     font-size: 1.2rem;
     color: var(--yellow-color);
-}
+    line-height: 12px;}
 
 .daily-leader-board .table-1 .pnl-per-td .percent-green,
 .daily-leader-board .table-2 .pnl-per-td .percent-green {
