@@ -41,7 +41,7 @@ div {
     flex-direction: row;
 }
 
-.main-body {
+.leader-board .main-body {
     width: 100%;
     padding: 50px;
     border: none;
