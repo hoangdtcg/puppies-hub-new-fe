@@ -28,7 +28,7 @@ div {
 }
 
 .box-1 {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
 }
 
@@ -58,6 +58,7 @@ div {
 .active-box,
 .history-box {
     /* border: 1px solid white; */
+    margin-bottom: 10px;
 }
 
 .info-box img {
@@ -67,18 +68,18 @@ div {
 
 .info-box .follow {
     width: 100%;
-    height: 58px;
-    background-image: url(../../img/leader-board/button.png);
-    background-color: var(--violet-color);
-    background-size: contain;
+    height: 55px;
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
 }
 
 .info-box .following {
     width: 100%;
-    height: 58px;
-    background-image: url(../../img/leader-board/button.png);
-    background-color: var(--green-color);
-    background-size: contain;
+    height: 55px;
+    background-color: orange;
+    color: white;
+    border: 2px solid white;
 }
 
 .info-box .hit-rate,
@@ -86,7 +87,8 @@ div {
 .info-box .rating {
     padding: 10px 20px;
     width: 100%;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
 
 .info-box .hit-rate,
 .info-box .day-pnl {
@@ -104,25 +106,32 @@ div {
 .info-box .day-pnl .title,
 .info-box .rating .title {
     color: var(--grey-color);
-    padding-bottom: 10px;box-sizing: border-box;}
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
 
 .info-box .day-pnl .percent {
     color: var(--green-color);
 }
 
-.info-box .rating .star {
+.info-box .rating .star .enable {
     color: var(--yellow-color);
 }
 
-.info-box .rating {
-    height: 62px;
+.info-box .rating .star {
+    font-size: small;
 }
+
+/*.info-box .rating {*/
+/*    height: 62px;*/
+/*}*/
 
 
 .user-box .trader-name,
 .user-box .description {
     height: 80px;
-    padding: px 20px;margin-bottom: 10px;
+    padding: px 20px;
+    margin-bottom: 10px;
 }
 
 .user-box .trader-name > *,
@@ -133,8 +142,9 @@ div {
 }
 
 .user-box {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 2px solid white;
 }
 
 .user-box .trader-name,
@@ -154,7 +164,8 @@ div {
     float: right;
     background-color: #161A1E;
     color: var(--white-color);
-    border: none;}
+    border: none;
+}
 
 .card-box {
     padding: 0 35px;
@@ -182,9 +193,10 @@ div {
 }
 
 .feedback-box .box-show {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     padding: 30px 40px;
     border-radius: 10px;
+    min-height:400px
 }
 
 .feedback-box .feedback-mes {
@@ -208,13 +220,14 @@ div {
 }
 
 .pending-box {
-    padding: 27px 15px;
+    /* padding: 27px 15px; */
 }
 
 .pending-box .box-show {
-
-    background: rgba(0,0,0,0.6);padding: 30px 15px;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 30px 15px;
     border-radius: 10px;
+    min-height: 400px;
 }
 
 .pending-box h3 {
@@ -222,9 +235,9 @@ div {
 }
 
 .pending-box table {
-    width: 100%;
-    padding: 0 27px;
-    border-spacing: 0;
+    /* width: 100%; */
+    /* padding: 0 27px; */
+    /* border-spacing: 0; */
 }
 
 .pending-box tr {
@@ -260,13 +273,14 @@ div {
 }
 
 .active-box {
-    padding: 27px 15px;
+    /* padding: 27px 15px; */
 }
 
 .active-box .box-show {
-    background-color: var(--violet-color);
+    background-color: rgba(0, 0, 0, .6);
     padding: 30px 15px;
     border-radius: 10px;
+    min-height: 400px;
 }
 
 .active-box h2 {
@@ -277,8 +291,6 @@ div {
 
 .active-box table {
     width: 100%;
-    padding: 0 27px;
-    border-spacing: 0;
 }
 
 .active-box tr {
@@ -337,18 +349,19 @@ div {
 }
 
 .history-box {
-    padding: 27px 15px;
+    /* padding: 27px 15px; */
 }
 
 .history-box .box-show {
-    background-color: var(--violet-color);
+    background-color: rgba(0,0,0,.6);
     padding: 30px 15px;
     border-radius: 10px;
-}
+    min-height: 400px;
+    /* box-sizing: border-box; */}
 
 .history-box h2 {
-    text-align: left;
-    padding-left: 25px;
+    /* text-align: left; */
+    /* padding-left: 25px; */
 }
 
 .history-box button {
@@ -359,8 +372,8 @@ div {
 
 .history-box table {
     width: 100%;
-    padding: 0 27px;
-    border-spacing: 0;
+    /* padding: 0 27px; */
+    /* border-spacing: 0; */
 }
 
 .history-box tr {
@@ -406,4 +419,137 @@ div#leader-board {
     padding: 0 15px;
     /* box-sizing: border-box; */
     width: 100%;
+}
+
+
+.pending .title,
+.active .title {
+    padding-left: 5px;
+}
+
+.pending h6,
+.active h6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pending table tr,
+.active table tr {
+    margin-bottom: 10px;
+}
+
+.pending .info,
+.active .info {
+    background-color: #2F2F2F;
+}
+
+.pending .coin,
+.active .coin {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+table {
+    width: 100%;
+    padding: 5px;
+    border-spacing: 0 5px;
+}
+
+.info.coin {
+    font-size: 12px;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.entry,
+p.pnl-title {
+    margin: 0;
+    font-size: 8px;
+}
+
+p.price-value,
+p.pnl-value {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button.edit {
+    /* font-size: 12px; */
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #868686;
+    border-radius: 5px;
+    padding: 10px 0;
+    /* box-sizing: border-box; */
+}
+
+.label-command {
+    display: block;
+    /*padding: .2em .6em .3em;*/
+    font-size: 50%;
+    line-height: 2;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-long {
+    background-color: #2BB74A;
+}
+
+
+.label-short {
+    background-color: #B81D1D;
+}
+
+.pnl-win {
+    color: #2BB74A;
+}
+
+.pnl-lose {
+    color: #B81D1D;
+}
+
+.pending .info.price, .info.pnl {
+    border-radius: 0 5px 5px 0;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.info.price, .info.pnl {
+    text-align: center;
+}
+
+.trading-list .col {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    box-sizing: border-box;
+}
+
+td.info {
+    background-color: #5c5c5c5c;
+    padding: 5px 10px;
+}
+
+.pending-box h2, .active-box h2, .history-box h2 {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.info-box {
+    padding-right: 5px;
+}
+
+.feedback-box, .pending-box, .active-box, .history-box {
+    padding: 0 5px;
 }

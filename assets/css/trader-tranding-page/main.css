@@ -4,26 +4,10 @@ body {
     background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
 }
 
-html {
-    font-size: 20px;
-    text-align: center;
-    color: aliceblue;
-}
-
-div {
-    padding: 0 5px;
-    box-sizing: border-box;
-}
-
 .main-body {
     display: flex;
     flex-direction: row;
 }
-
-/**********************************************
-MAIN-BODY
-***********************************************/
-
 
 .chart img {
     width: 100%;
@@ -56,9 +40,6 @@ input[type="number"].entry {
     background-color: var(--yellow-color);
 }
 
-
-/*Trading list*/
-
 .trading-list {
     min-height: 300px;
 }
@@ -69,31 +50,38 @@ input[type="number"].entry {
     box-sizing: border-box;
 }
 
-.pending, .active, textarea {
+.pending,
+.active,
+textarea {
     border-radius: 10px;
     padding: 10px 15px 30px 15px;
     background-color: rgba(0, 0, 0, .7);
 }
 
 
-.pending .title, .active .title {
+.pending .title,
+.active .title {
     padding-left: 5px;
 }
 
-.pending h6, .active h6 {
+.pending h6,
+.active h6 {
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.pending table tr, .active table tr {
+.pending table tr,
+.active table tr {
     margin-bottom: 10px;
 }
 
-.pending .info, .active .info {
+.pending .info,
+.active .info {
     background-color: #2F2F2F;
 }
 
-.pending .coin, .active .coin {
+.pending .coin,
+.active .coin {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -115,19 +103,21 @@ table {
     font-weight: bold;
 }
 
-p.entry, p.pnl-title {
+p.entry,
+p.pnl-title {
     margin: 0;
     font-size: 8px;
 }
 
-p.price-value, p.pnl-value {
+p.price-value,
+p.pnl-value {
     margin: 0;
     font-size: 12px;
     font-weight: bold;
 }
 
 button.edit {
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-left: 5px;
     margin-right: 5px;
     background-color: #868686;
@@ -165,10 +155,14 @@ button.edit {
     color: #B81D1D;
 }
 
-.info.price, .info.pnl {
+.pending .info.price, .info.pnl {
     border-radius: 0 5px 5px 0;
     padding-right: 5px;
     box-sizing: border-box;
+}
+
+.info.price, .info.pnl{
+    text-align: center;
 }
 
 .trading-list .col {
@@ -193,7 +187,8 @@ textarea::placeholder {
     color: white;
 }
 
-input, textarea {
+input,
+textarea {
     font-size: initial !important;
 }
 
@@ -218,37 +213,48 @@ input, textarea {
     border: 2px solid #ffa927;
 }
 
-.btn-close{
+.btn-close {
     background-color: #2f2f2f;
 }
-.btn-update{
+
+.btn-update {
     background-color: #8D4F7C;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 50px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 50px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 /* Modal Content */
-.popup{
+.popup {
     margin: auto;
 }
 
-.popup h3{
-    margin: 10px;
+.popup h3 {
+    /* margin: 10px; */
     text-align: left;
 }
+
 .modal-content {
     background-color: #0B0B0B;
     margin: auto;
@@ -258,34 +264,41 @@ input, textarea {
     border-radius: 15px;
 }
 
-.modal-content p{
+.modal-content h3 {
     margin: 0;
     margin-bottom: 5px;
     text-align: left;
 }
 
-.modal-content input{
+.modal-content input {
     width: 100%;
 }
-.modal .row .col{
+
+.modal .row .col {
     padding: 10px 10px;
     box-sizing: border-box;
 }
 
-.modal-content input{
-    height: 35px;
-    background-color: #2F2F2F!important;
+.modal .row .title {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+.modal-content input {
+    height: 30px;
+    background-color: #2F2F2F !important;
     padding-left: 10px;
     border-radius: 10px;
     border: none;
-    color: white!important;
+    color: white !important;
 }
 
-.modal-content input[readonly]{
-    background-color: #656565!important;
+.modal-content input[readonly] {
+    background-color: #656565 !important;
 }
 
-div.profit{
+div.profit {
     padding: 0;
     margin-top: 15px;
     margin-bottom: 0;
@@ -304,4 +317,19 @@ div.profit{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+.btn{
+    font-size: large;
+}
+.edit{
+    font-size: 10px;
+}
+
+button:disabled,
+button[disabled],button[disabled]:hover{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: default;
+    opacity: .5;
 }
