@@ -27,14 +27,14 @@
 
 body {
     background: #000000;
-    background-image: url("../../img/leader-board/background.png");
+    background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
 }
 
-/*html {*/
-/*    font-size: 20px;*/
-/*    text-align: center;*/
-/*    color: aliceblue;*/
-/*}*/
+html .trader-trading-page {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
 
 
 .chart img {
