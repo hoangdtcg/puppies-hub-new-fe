@@ -8,472 +8,485 @@
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/base.css">
 
-    <link rel="stylesheet" href="assets/css/header/main.css">
-    <link rel="stylesheet" href="assets/css/header/responsive.css">
-
-    <link rel="stylesheet" href="assets/css/trader-tranding-page/main.css">
-    <link rel="stylesheet" href="assets/css/trader-tranding-page/responsive.css">
+    <link rel="stylesheet" href="assets/css/leader-board2/main.css">
+    <link rel="stylesheet" href="assets/css/leader-board2/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link id="favico" rel="icon" type="image/png" href="https://bizweb.dktcdn.net/100/327/577/files/2.png"/>
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link id="favico" rel="icon" type="image/png" href="https://bizweb.dktcdn.net/100/327/577/files/2.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Trade trading page</title>
+    <title>Leader board 2</title>
     <link href="assets/fonts/fontawesome-free-5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="container">
-    <!-- Layout Header -->
-    <header class="header">
-        <div class="header__container">
-            <div class="grid">
-                <div class="row">
-                    <div class="col p-2 t-2 m-0">
-                        <div class="header__navbar-logo">
-                            <a href="/" class="header-logo__img">
-                                <img src="./assets/img/login/icon.png" class="header-logo__icon" alt="icon">
-                            </a>
+    <div class="container">
+
+        <div id="header" class="grid row no-gutters">
+            <div class="brand-logo p-1 t-2 m-10">Logo</div>
+            <div class="header-search p-2 t-0 m-0">Search</div>
+            <div class="header-menu p-8 t-10 m-2">Menu</div>
+            <div class="account p-1 t-0 m-0">Account</div>
+        </div>
+
+        <div id="leader-board" class="grid row no-gutters">
+
+            <div class="sidebar-left row no-gutters p-2 t-12 m-12">
+                <div class="menu p-12 t-6 m-6">Menu</div>
+                <div class="top-follow p-12 t-6 m-6">Top Following</div>
+            </div>
+
+            <div class="main-body row no-gutters p-8 t-12 m-12">
+                <div class="board daily-leader-board grid row no-gutters">
+                    <div class="table-1 p-6 t-6 m-12">
+                        <div class="row">
+                            <h2>DAILY LEADERBOARD</h2>
+                        </div>
+                        <div class="row">
+                            <table>
+                                <tr>
+                                    <td class="number">01.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-green">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">02.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-green">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">03.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">04.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">05.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                               
+                            </table>
                         </div>
                     </div>
+                    <div class="table-2 p-6 t-6 m-12">
+                        <div class="row">
+                            <table>
+                                <tr>
+                                    <td class="number">06.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
 
-                    <div class="col p-8 t-8 m-0">
-                        <ul class="header__navbar-list">
-                            <input type="text" placeholder="Search" class="header__navbar-input">
-                            <li class="header__navbar-item">CRYPTO CONTENT</li>
-                            <li class="header__navbar-item">LEADER BOARD</li>
-                            <li class="header__navbar-item">MEMBERSHIP</li>
-                            <li class="header__navbar-item">ABOUT US</li>
-                            <li class="header__navbar-item">CONTACT</li>
-                        </ul>
+                                <tr>
+                                    <td class="number">07.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">08.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">09.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">10.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                               
+                            </table>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="col p-2 t-2 m-12">
-                        <div class="header__navbar-user">
-                            <a href="" class="header__navbar-link">
-                                <img src="./assets/img/header/logo.png" alt="logo" class="header__navbar-logo">
-                                <div class="header__navbar-name">
-                                    <p class="header__navbar-text">Xin chào</p>
-                                    <p class="header__navbar-text">Hoàn Nguyễn</p>
-                                    <div class="header__navbar-premium">
-                                        <span class="header__navbar-text">Premium</span>
-                                    </div>
-                                </div>
-                            </a>
 
-                            <div class="header__notify">
-                                <ul class="header__navbar-account">
-                                    <li class="header__navbar-redirect">Admin Page</li>
-                                    <li class="header__navbar-redirect">Thông tin cá nhân</li>
-                                    <li class="header__navbar-redirect">Đăng nhập</li>
-                                    <li class="header__navbar-redirect">Đăng xuất</li>
-                                    <li class="header__navbar-redirect">Trading</li>
-                                </ul>
-                            </div>
+
+                <div class="board daily-leader-board weekly-board grid row no-gutters">
+                    <div class="table-1 p-6 t-6 m-12">
+                        <div class="row">
+                            <h2>WEEKLY LEADERBOARD</h2>
+                        </div>
+                        <div class="row">
+                            <table>
+                                <tr>
+                                    <td class="number">01.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-green">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">02.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-green">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">03.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">04.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">05.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                               
+                            </table>
+                        </div>
+                    </div>
+                    <div class="table-2 p-6 t-6 m-12">
+                        <div class="row">
+                            <table>
+                                <tr>
+                                    <td class="number">06.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">07.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">08.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">09.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="number">10.</td>
+                                    <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                    <td class="trading-name-td">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </td>
+                                    <td class="hirate-td">
+                                        <div class="col">
+                                            <div class="hirate">HITRATE</div>
+                                            <div class="percent">68.01%</div>
+                                        </div>
+                                    </td>
+                                    <td class="pnl-per-td">
+                                        <div class="col pnl-per">
+                                            <p class="pnl">PNL</p>
+                                            <p class="percent percent-red">+15.64%</p>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                               
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- <div class="content">CONTENT PAGE</div> -->
-
-        <div class="header__modal">
-            <div class="screen">
-                <header>
-                    <a class="target-burger">
-                        <ul class="buns">
-                            <li class="bun"></li>
-                            <li class="bun"></li>
-                        </ul>
-                    </a>
-                </header>
-
-                <nav class="main-nav" role="navigation">
-                    <ul class="mobile-list">
-                        <input type="text" placeholder="Search" class="mobile-input__search">
-                        <li><a href=""><span>Home</span></a></li>
-                        <li><a href=""><span>Login</span></a></li>
-                        <li><a href=""><span>Register</span></a></li>
-                        <li><a href=""><span>Profile</span></a></li>
-                        <li><a href=""><span>Sign In</span></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- End Layout Header -->
-
-    <!-- <div id="header" class="grid row no-gutters">
-        <div class="brand-logo p-1 t-2 m-10">Logo</div>
-        <div class="header-search p-2 t-0 m-0">Search</div>
-        <div class="header-menu p-8 t-10 m-2">Menu</div>
-        <div class="account p-1 t-0 m-0">Account</div>
-    </div> -->
-
-    <div id="trader-trading-page" class="grid row no-gutters">
-
-        <div class="sidebar-left p-2 t-0 m-0">
-            SIDEBAR-LEFT
-        </div>
-
-        <div class="main-body row no-gutters p-8 t-12 m-12">
-
-            <!-- Chart -->
-            <div class="ranking daily-ranking p-12 t-12 m-12">
-                <div class="title-board">
-                    <h1>DAILY RANKING</h1>
-                </div>
-                <div class="row">
-                    <div class="daily-left col p-6 t-6 m-6">
-                        <table>
-                            <tr>
-                                <td class="top-rank">
-                                    <p class="number-rank">
-                                        <i class="fa fa-crown"></i>
-                                        <p>1</p>
-                                    </p>
-                                </td>
-                                <td class="trader-avatar">
-                                    <a href="">
-                                        <img src="assets/img/leader-board2/avt.png" alt="">
-                                    </a>
-                                </td>
-                                <td class="trader-name" colspan="4">
-                                    <a href="">
-                                        Tran Bao Nghia
-                                    </a>
-                                </td>
-                                <td class="trader-hitrate">
-                                    <p class="title">HITRATE</p>
-                                    <p class="hitrate-value">+12012%</p>
-                                </td>
-                                <td class="trader-pnl">
-                                    <p class="title">PNL</p>
-                                    <p class="hitrate-value">-212%</p>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
+            <div class="sidebar-right p-2 t-0 m-0">
+                SIDEBAR-RIGHT
             </div>
 
-            <!--            <div class="trading-chart">-->
-            <!--                <div class="row">-->
-            <!--                    <div class="chart col p-9 t-12 m-12">-->
-            <!--                        <img src="./assets/img/trader-trading-page/chart.png" alt="" class="img-chart">-->
-            <!--                    </div>-->
-            <!--                    <div class="trading-info col p-3 t-12 m-12">-->
-            <!--                        <div class="action">-->
-            <!--                            <div class="row">-->
-            <!--                                <div class="col p-6 t-6 m-6">-->
-            <!--                                    <button class="btn btn-green btn-selected">Long</button>-->
-            <!--                                </div>-->
-            <!--                                <div class="col p-6 t-6 m-6">-->
-            <!--                                    <button class="btn btn-red">Short</button>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-
-            <!--                        <div class="row">-->
-            <!--                            <div class="col p-12 t-12 m-12">-->
-            <!--                                <input type="number" class="entry" placeholder="Entry">-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                        <div class="row">-->
-            <!--                            <div class="col p-12 t-12 m-12">-->
-            <!--                                <input type="number" class="stop-loss" placeholder="Stop Loss">-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                        <div class="profit">-->
-            <!--                            <div class="row">-->
-            <!--                                <div class="col p-8 t-8 m-8">-->
-            <!--                                    <input type="number" class="take-profit" placeholder="TAKE PROFIT +">-->
-            <!--                                </div>-->
-            <!--                                <div class="col p-4 t-4 m-4">-->
-            <!--                                    <input type="number" class="percent" placeholder="%">-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                            <div class="row">-->
-            <!--                                <div class="col p-8 t-8 m-8">-->
-            <!--                                    <input type="number" class="take-profit" placeholder="TAKE PROFIT +">-->
-            <!--                                </div>-->
-            <!--                                <div class="col p-4 t-4 m-4">-->
-            <!--                                    <input type="number" class="percent" placeholder="%">-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-
-            <!--                            <div class="row">-->
-            <!--                                <div class="col p-8 t-8 m-8">-->
-            <!--                                    <input type="number" class="take-profit" placeholder="TAKE PROFIT +">-->
-            <!--                                </div>-->
-            <!--                                <div class="col p-4 t-4 m-4">-->
-            <!--                                    <input type="number" class="percent" placeholder="%">-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-
-            <!--                        <div class="row">-->
-            <!--                            <div class="col p-12 t-12 m-12">-->
-            <!--                                <input type="number" class="risk" placeholder="RISK (1-5%)">-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-
-            <!--                        <div class="row">-->
-            <!--                            <div class="col p-12 t-12 m-12">-->
-            <!--                                <button class="btn btn-green">BUY</button>-->
-            <!--                                &lt;!&ndash;                                    <button class="btn btn-red">SELL</button>&ndash;&gt;-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!--            </div>-->
-
-
-            <!--            <div class="trading-list p-12 t-12 m-12">-->
-            <!--                <div class="row">-->
-            <!--                    <div class="col p-4 t-6 m-12">-->
-            <!--                        <div class="pending">-->
-            <!--                            <div class="row">-->
-            <!--                                <div class="title">-->
-            <!--                                    <h2>Các lệnh đang Pending</h2>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-
-            <!--                            <div class="row">-->
-            <!--                                <table>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-long">Long</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-short">Short</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-short">Short</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-short">Short</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-short">Short</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-            <!--                                </table>-->
-            <!--                            </div>-->
-
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                    <div class="col p-5 t-6 m-12">-->
-            <!--                        <div class="active">-->
-            <!--                            <div class="row">-->
-            <!--                                <div class="title">-->
-            <!--                                    <h2>Các lệnh đang Active</h2>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-
-            <!--                            <div class="row">-->
-            <!--                                <table>-->
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-short">Short</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-
-            <!--                                        <td class="info pnl">-->
-            <!--                                            <p class="pnl-title">PNL</p>-->
-            <!--                                            <p class="pnl-value pnl-win">+15%</p>-->
-            <!--                                        </td>-->
-
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-
-            <!--                                    <tr>-->
-            <!--                                        <td class="info coin">BTC/USDT</td>-->
-            <!--                                        <td class="info command">-->
-            <!--                                            <span class="label-command label-long">Long</span>-->
-            <!--                                        </td>-->
-            <!--                                        <td class="info price">-->
-            <!--                                            <p class="entry">Entry</p>-->
-            <!--                                            <p class="price-value">31,123.07</p>-->
-            <!--                                        </td>-->
-
-            <!--                                        <td class="info pnl">-->
-            <!--                                            <p class="pnl-title">PNL</p>-->
-            <!--                                            <p class="pnl-value pnl-lose">-7%</p>-->
-            <!--                                        </td>-->
-
-            <!--                                        <td>-->
-            <!--                                            <button class="edit btn">EDIT</button>-->
-            <!--                                        </td>-->
-            <!--                                    </tr>-->
-
-            <!--                                </table>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                    <div class="col p-3 t-12 m-12">-->
-            <!--                        <div class="trader-communication">-->
-            <!--                            <textarea placeholder="Trader Communication"></textarea>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-
-            <!--            </div>-->
-
-
         </div>
-
-        <div class="sidebar-right p-2 t-0 m-0">
-            SIDEBAR-RIGHT
-        </div>
-
     </div>
-</div>
-
-<div id="editModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="popup p-4 t-8 m-12">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1>Thông tin/Chỉnh sửa lệnh</h1>
-            <div class="trade-update">
-                <div class="row">
-                    <div class="col p-6 t-6 m-12">
-                        <h3>Entry</h3>
-                        <input type="number" class="entry" placeholder="Entry" readonly>
-                    </div>
-                    <div class="col p-6 t-6 m-12">
-                        <h3>Risk</h3>
-                        <input type="number" class="risk" placeholder="RISK (1-5%)" readonly>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col p-12 t-12 m-12">
-                        <h3>Stoploss</h3>
-                        <input type="number" class="stop-loss" placeholder="Stop Loss">
-                    </div>
-                </div>
-                <div class="profit">
-                    <div class="row">
-                        <div class="title p-12 t-12 m-12">
-                            <h3>Take Profits</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p-8 t-8 m-8">
-                            <input type="number" class="take-profit" placeholder="TAKE PROFIT +">
-                        </div>
-                        <div class="col p-4 t-4 m-4">
-                            <input type="number" class="percent" placeholder="%">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p-8 t-8 m-8">
-                            <input type="number" class="take-profit" placeholder="TAKE PROFIT +">
-                        </div>
-                        <div class="col p-4 t-4 m-4">
-                            <input type="number" class="percent" placeholder="%">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col p-8 t-8 m-8">
-                            <input type="number" class="take-profit" placeholder="TAKE PROFIT +">
-                        </div>
-                        <div class="col p-4 t-4 m-4">
-                            <input type="number" class="percent" placeholder="%">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col p-12 t-12 m-12">
-                        <div class="trader-communication">
-                            <textarea placeholder="Trader Communication"></textarea>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col p-4 t-6 m-12">
-                        <button class="btn btn-close">Đóng</button>
-                    </div>
-                    <div class="col p-4 t-6 m-12">
-                        <button class="btn btn-red">Đóng lệnh</button>
-                    </div>
-                    <div class="col p-4 t-12 m-12">
-                        <button class="btn btn-update">Cập nhật</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-</div>
-
-<!--Script modal edit-->
-
-</script>
 </body>
 
 </html>
