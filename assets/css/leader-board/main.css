@@ -17,7 +17,7 @@ body {
     background-image: url("../../img/leader-board/background.png");
 }
 
-html {
+html #leader-board {
     font-size: 20px;
     text-align: center;
     color: aliceblue;
@@ -41,7 +41,7 @@ div {
     flex-direction: row;
 }
 
-.leader-board .main-body {
+#leader-board .main-body {
     width: 100%;
     padding: 50px;
     border: none;
@@ -201,7 +201,7 @@ div {
 
 .feedback-box .feedback-mes {
     padding-left: 10px;
-    font-size: 0.6rem;
+    font-size: 1rem;
     margin-bottom: 20px;
     font-weight: 700;
 }
@@ -541,7 +541,7 @@ td.info {
 }
 
 .pending-box h2, .active-box h2, .history-box h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: left;
     padding-left: 15px;
 }
