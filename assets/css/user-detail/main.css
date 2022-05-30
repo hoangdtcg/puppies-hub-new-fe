@@ -32,14 +32,15 @@ html {
 }
 
 .main-body {
-    padding: 0 55px;
-    border: 1px solid white;
+    /* padding: 0 55px; */
+    /* border: 1px solid white; */
 }
 
-.main-body .box-show {
-    padding: 72px;
+#user-detail .main-body {
+    padding: 50px;
     background-image: url("../../img/user-detail/background.png");
     border-radius: 20px;
+    /* margin: 20px; */
 }
 
 .main-body .info-box {
@@ -59,57 +60,60 @@ html {
     padding-right: 5px;
 }
 
-.main-body .info-box .trade-btn p {
+.main-body .info-box .trade-btn p, .main-body .info-box .social {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 22px;
-    line-height: 40px;
     text-align: center;
     color: var(--yellow-color);
-    margin: 0;
-    margin-top: 27px;
+    margin-top: 10px;
+    padding: 10px 5px;
+    height: 60px;
 }
 
 .main-body .info-box .social {
     padding-left: 5px;
 }
 
-.main-body .info-box .social .col {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    margin: 0;
-    margin-top: 27px;
-    height: 40px;
+.main-body .info-box .trade-btn {
+    padding-right: 5px;
+    line-height: 35px;
+
 }
+
 
 .main-body .info-box .social .telegram {
     color: #575757;
     font-size: 0.55rem;
-    line-height: 20px;
+    line-height: 10px;
+    margin: 0;
+
 }
 
 .main-body .info-box .social .social-add {
     font-size: 0.7rem;
-    line-height: 20px;
+    line-height: 30px;
+    color: var(--white-color);
+    margin: 0;
 }
 
 .main-body .trade-info-box {
-    padding: 0 11px 0 46px !important;
+    padding: 0px 20px !important;
     /* background-color: goldenrod; */
 }
 
 .main-body .trade-info-box .trade-name h2,
 .main-body .rank-acc-box .rank-name h2 {
-    height: 163px;
+    height: 100px;
     background-color: #000000;
     border-radius: 20px;
-    text-align: left;
-    line-height: 163px;
+
+    line-height: 100px;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .main-body .trade-info-box .box-mini {
@@ -121,7 +125,8 @@ html {
     flex-direction: row;
 }
 
-.main-body .trade-info-box .row-2 {}
+.main-body .trade-info-box .row-2 {
+}
 
 .main-body .trade-info-box .earn-money {
     padding-right: 5px;
@@ -141,29 +146,29 @@ html {
 
 .main-body .trade-info-box .box-mini {
     margin: 0;
-    background-color: #552a3f9c;
-    width: 95%;
+    background-color: #00000080;
+    width: 100%;
     text-align: center;
-    height: 88px;
-    border-radius: 10px;
-    padding: 10px;
+    /* height: 88px; */
+    border-radius: 15px;
+    /* padding: 10px; */
 }
 
 .main-body .trade-info-box .box-mini .title {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    line-height: 20px;
+    line-height: 30px;
     color: #C8C8C8;
 }
 
 .main-body .trade-info-box .box-mini .body {
-    font-size: 2.6rem;
+    font-size: 1.5rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .main-body .trade-info-box .earn-money .body {
@@ -180,7 +185,7 @@ html {
 
 .main-body .rank-acc-box .acc-up button {
     width: 100%;
-    height: 88px;
+    height: 80px;
     background-color: var(--yellow-color);
     font-size: 1.5rem;
 }
@@ -188,14 +193,13 @@ html {
 
 .infomation-box {
     margin: 0;
-    margin-top: 52px;
+    margin-top: 20px;
 }
 
 .infomation-box form {
     background-color: var(--black-color);
     border-radius: 20px;
-    height: 283px;
-    padding: 37px 42px;
+    padding: 30px 30px;
 }
 
 .infomation-box form h3 {
@@ -206,7 +210,7 @@ html {
     color: #FFFFFF;
     text-align: left;
     margin: 0;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
 
 .infomation-box form .body ul,
@@ -222,46 +226,47 @@ html {
 }
 
 .infomation-box form input {
-    height: 42px;
-    background: #484848;
+    height: 40px;
+    background: #48484880;
     border-radius: 10px;
     border: none;
     width: 95%;
     padding: 10px 20px;
+    color: var(--white-color);
 }
 
 .infomation-box form input::placeholder {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 900;
-    color: var(--white-color);
+    /*font-weight: 900;*/
+    /*color: var(--white-color);*/
 }
 
 .infomation-box form .edit {
     float: left;
-    height: 29px;
+    height: 40px;
     background: #323232;
     border-radius: 10px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 0.7rem;
     text-align: center;
     border: none;
     color: var(--white-color);
-    margin-top: calc((42px - 29px)/2);
+    margin-top: 0;
     padding: 0 15px;
     cursor: pointer;
 }
 
 
 .code-box {
-    margin-top: 25px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 12px;
-    padding-right: 12px;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
 }
 
 .code-box .link-invite,
@@ -271,23 +276,25 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 13px 26px 13px 42px;
+    margin-bottom: 10px;
 }
 
 .code-box .link-invite p,
 .code-box .code-invite p,
 .code-box .link-invite button,
 .code-box .code-invite button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
+    line-height: 40px;
 }
 
 .code-box .link-invite button,
 .code-box .code-invite button {
-    height: 44px;
+    height: 40px;
     margin: auto;
     margin-right: 0;
     padding: 0 35px;
@@ -295,4 +302,39 @@ html {
     background-color: var(--yellow-color);
     color: var(--white-color);
     cursor: pointer;
+    border: none;
+}
+
+.trade-name, .rank-name {
+    margin-bottom: 10px;
+}
+
+.account-basic {
+    color: var(--white-color);
+}
+
+.account-trader {
+    color: var(--yellow-color);
+}
+
+.account-vip {
+    color: var(--green-color);
+}
+
+.account-premium {
+    color: var(--red-color);
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.code-box .col {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-align: right;
+}
+
+.acc-up .btn {
+    border-radius: 15px;
 }

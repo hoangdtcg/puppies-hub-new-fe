@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="" />
+    <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update user detail">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/user-detail/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user-detail/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/user-detail/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user-detail/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,14 +27,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,6 +37,30 @@
       <updated>1653844786391</updated>
       <workItem from="1653844786393" duration="153000" />
     </task>
+    <task id="LOCAL-00001" summary="update user detail">
+      <created>1653930723816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653930723817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update user detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="update user detail" />
   </component>
 </project>
