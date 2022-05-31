@@ -20,7 +20,7 @@ body {
     background-image: url("../../img/leader-board/background.png");
 }
 
-html #leader-board .main-body{
+html #leader-board .main-body {
     font-size: 20px;
     text-align: center;
     color: aliceblue;
@@ -85,7 +85,7 @@ html #leader-board .main-body{
 
 .daily-leader-board .table-1 .number,
 .daily-leader-board .table-2 .number {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
@@ -93,13 +93,14 @@ html #leader-board .main-body{
     color: #FFFFFF;
 }
 
-.daily-leader-board .table-1 tr:first-child>.number {
+.daily-leader-board .table-1 tr:first-child > .number {
     color: var(--yellow-color);
 }
 
 .daily-leader-board .table-1 img,
 .daily-leader-board .table-2 img {
-    width: 50px;
+    width: 100%;
+    height: auto;
 }
 
 .daily-leader-board .table-1 .trading-name-td,
@@ -150,7 +151,8 @@ html #leader-board .main-body{
 .daily-leader-board .table-2 .pnl-per-td .percent {
     font-size: 1.2rem;
     color: var(--yellow-color);
-    line-height: 12px;}
+    line-height: 12px;
+}
 
 .daily-leader-board .table-1 .pnl-per-td .percent-green,
 .daily-leader-board .table-2 .pnl-per-td .percent-green {
@@ -173,6 +175,19 @@ html #leader-board .main-body{
     border: none;
 }
 
-.trading-name {font-size: 1rem;}
+.trading-name {
+    font-size: 1rem;
+}
 
-td.trading-name-td {padding: 0 20px;}
+td.trading-name-td {
+    /*padding: 0 20px;*/
+}
+
+.avt {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid var(--yellow-color);
+    border-radius: 50%;
+    overflow: hidden;
+}
