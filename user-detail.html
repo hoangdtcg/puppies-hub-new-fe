@@ -190,6 +190,7 @@
     $(document).ready(function () {
         $('.edit').on('click', function () {
             var inp;
+            let api;
             if ($(this).hasClass('edit-name-btn')) {
                 inp = $('.name-edit');
             } else if ($(this).hasClass('edit-phone-btn')) {
@@ -202,11 +203,13 @@
 
             let checkInp = inp.is('[readonly]');
             if (checkInp) {
+                //Ấn edit
                 inp.prop('readonly', false)
                 inp.css("background-color", "#484848")
                 $(this).css("background-color", "green")
                 $(this).html('SAVE');
             } else {
+                //Ấn save
                 inp.prop('readonly', true);
                 inp.css('background-color', "#48484880")
                 $(this).css('background-color', "#323232")
