@@ -461,15 +461,12 @@
             })
 
         //    Loading
-            const buyBtn = $("#buy-btn");
-
-            buyBtn.on('click', function (){
-                // Show loader on button click
-                buyBtn.addClass("loading");
+            $("#buy-btn").on('click', function (){
+                $("#buy-btn").addClass("loading");
                 $(".overlay").show();
-                // Hide loader after success/failure - here it will hide after 2seconds
+
                 setTimeout(function () {
-                    buyBtn.removeClass("loading");
+                    $("#buy-btn").removeClass("loading");
                     $(".overlay").hide();
                 },3000);
             });

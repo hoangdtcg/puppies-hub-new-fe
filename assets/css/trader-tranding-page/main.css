@@ -370,15 +370,6 @@ button[disabled],button[disabled]:hover{
     display: block;
 }
 
-/*.action-btn:hover {*/
-/*    background-color: #ff6600;*/
-/*}*/
-
-/*.action-btn:focus {*/
-/*    outline: 0.05em dashed #ff6600;*/
-/*    outline-offset: 0.05em;*/
-/*}*/
-
 .action-btn::after {
     content: '';
     display: block;
