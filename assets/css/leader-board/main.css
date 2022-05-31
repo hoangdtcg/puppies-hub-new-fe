@@ -41,7 +41,7 @@ div {
     flex-direction: row;
 }
 
-#leader-board .main-body {
+.trader-detail .main-body {
     width: 100%;
     padding: 50px;
     border: none;

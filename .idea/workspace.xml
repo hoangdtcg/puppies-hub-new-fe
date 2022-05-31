@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update user detail">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/leader-board/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/leader-board/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/leader-board2/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/leader-board2/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/login/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/login/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/register/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leader-board2.html" beforeDir="false" afterPath="$PROJECT_DIR$/leader-board2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

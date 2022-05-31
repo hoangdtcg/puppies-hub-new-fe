@@ -33,7 +33,7 @@ body {
     border: 2px solid #5f5c5c;
 }
 
-.auth-form {
+.login .auth-form {
     width: 520px;
     border-radius: 5px;
     overflow: hidden;
