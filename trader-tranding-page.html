@@ -147,11 +147,13 @@
                             <div class="row">
                                 <div class="col p-12 t-12 m-12">
                                     <input type="number" class="entry" placeholder="Entry">
+                                    <p class="error">Entry không được để trống</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col p-12 t-12 m-12">
                                     <input type="number" class="stop-loss" placeholder="Stop Loss">
+                                    <p class="error">SL không được để trống</p>
                                 </div>
                             </div>
                             <div class="profit">
@@ -171,7 +173,6 @@
                                         <input type="number" class="percent" placeholder="%">
                                     </div>
                                 </div>
-
                                 <div class="row">
                                     <div class="col p-8 t-8 m-8">
                                         <input type="number" class="take-profit" placeholder="TAKE PROFIT +">
@@ -180,11 +181,17 @@
                                         <input type="number" class="percent" placeholder="%">
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col p-12 t-12 m-12">
+                                        <p class="error">Cần tối thiểu 1 TP</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row">
                                 <div class="col p-12 t-12 m-12">
                                     <input type="number" class="risk" placeholder="RISK (1-5%)">
+                                    <p class="error">Risk không được để trống/cần ở mức 1% - 5%</p>
                                 </div>
                             </div>
 
