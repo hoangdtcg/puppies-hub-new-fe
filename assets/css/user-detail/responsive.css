@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     #user-detail .main-body {
         padding: 10px;
         background-image: url("../../img/user-detail/background.png");

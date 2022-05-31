@@ -14,7 +14,7 @@
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .daily-leader-board .table-1 {
         padding-right: 0;
     }

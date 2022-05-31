@@ -4,18 +4,30 @@
 
 /* Mobile và Tablet */
 @media (max-width: 1023px) {
-    .main-body {
+    div.trader-detail .main-body {
         width: 100%;
-        padding: 20px;
-        margin: 10px;
+        padding: 20px!important;
+        margin: 10px!important;
+    }
+    .pending-box .box-show, .active-box .box-show, .history-box .box-show{
+        min-height: auto;
+    }
+    .info-box .hit-rate, .info-box .day-pnl, .info-box .rating{
+        padding: 10px 10px;
     }
 }
 
-@media (max-width: 380px) {
-    .main-body {
+@media (max-width: 480px) {
+    div.trader-detail .main-body {
         width: 100%;
-        padding: 5px;
-        margin: 5px;
+        padding: 10px!important;
+        margin: 5px!important;
+    }
+    .pending-box .box-show, .active-box .box-show, .history-box .box-show{
+        min-height: auto;
+    }
+    .user-box{
+        border: none;
     }
 }
 

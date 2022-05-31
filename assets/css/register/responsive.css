@@ -30,7 +30,7 @@
 }
 
 /* Mobile min size */
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .auth-form__heading {
         text-align: center;
     }
