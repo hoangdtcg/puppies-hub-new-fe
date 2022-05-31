@@ -107,21 +107,21 @@ body {
 .header__notify {
     display: none;
     position: absolute;
-    min-width: 179px;
+    min-width: 180px;
     background-color: var(--white-color);
     list-style: none;
     z-index: 2;
     box-shadow: 0 0 3px #ccc;
     border-radius: 2px;
-    top: 105%;
+    top: 100%;
     left: 8px;
     padding: 12px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
-.header__navbar-user:hover .header__notify {
-    display: block;
-}
+/*.header__navbar-user:hover .header__notify,.header__notify:hover {*/
+/*     display: block;*/
+/* }*/
 
 .header__navbar-account {
     list-style: none;

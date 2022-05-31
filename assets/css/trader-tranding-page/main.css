@@ -30,7 +30,7 @@ body {
     background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
 }
 
-html .trader-trading-page {
+html {
     font-size: 20px;
     text-align: center;
     color: aliceblue;
@@ -189,7 +189,7 @@ button.edit {
     box-sizing: border-box;
 }
 
-.info.price, .info.pnl{
+.info.price, .info.pnl {
     text-align: center;
 }
 
@@ -346,23 +346,28 @@ div.profit {
     text-decoration: none;
     cursor: pointer;
 }
-.btn{
+
+.btn {
     font-size: large;
 }
-.edit{
+
+.edit {
     font-size: 10px;
 }
 
 button:disabled,
-button[disabled],button[disabled]:hover{
+button[disabled], button[disabled]:hover {
     border: 1px solid #999999;
     background-color: #cccccc;
     color: #666666;
     cursor: default;
     opacity: .5;
 }
-.error{
+
+.error {
     color: var(--red-color);
     padding-left: 10px;
     margin-top: 5px;
+    font-size: 0.6rem;
+    text-align: left;
 }

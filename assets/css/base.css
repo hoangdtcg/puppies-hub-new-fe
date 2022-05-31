@@ -164,7 +164,8 @@ html {
 }
 
 .btn:hover {
-    opacity: .75;
+    /*opacity: .75;*/
+    filter: brightness(125%);
 }
 
 .btn-green {
@@ -237,4 +238,8 @@ html a{
     background-color: #2f2f2f ;
     z-index: 99;
     opacity: .5;
+}
+.empty-data, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
 }
