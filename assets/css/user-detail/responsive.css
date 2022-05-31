@@ -57,6 +57,11 @@
          text-align: center;
     }
 
+    .main-body .rank-acc-box .acc-up button{
+        font-size: 1.2rem;
+        opacity: 1;
+    }
+
 }
 
 @media (max-width: 374px) {}

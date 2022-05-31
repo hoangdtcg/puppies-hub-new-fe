@@ -334,12 +334,11 @@ button:hover {
     padding-right: 20px !important;
     text-align: right;
 }
-
+.acc-up{
+    width: 100%;
+}
 .acc-up .btn {
     border-radius: 15px;
-}
-
-p.title {
 }
 
 .user-telegram .box-mini .title {
