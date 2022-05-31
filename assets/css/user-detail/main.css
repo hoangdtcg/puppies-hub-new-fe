@@ -73,7 +73,7 @@ html {
     height: 60px;
 }
 
-.main-body .info-box .social {
+.main-body .social {
     padding-left: 5px;
 }
 
@@ -84,7 +84,7 @@ html {
 }
 
 
-.main-body .info-box .social .telegram {
+.main-body .social .telegram {
     color: #575757;
     font-size: 0.55rem;
     line-height: 10px;
@@ -92,7 +92,7 @@ html {
 
 }
 
-.main-body .info-box .social .social-add {
+.main-body .social .social-add {
     font-size: 0.7rem;
     line-height: 30px;
     color: var(--white-color);
@@ -337,4 +337,27 @@ button:hover {
 
 .acc-up .btn {
     border-radius: 15px;
+}
+
+p.title {
+}
+
+.user-telegram .box-mini .title {
+    color: #565656;
+}
+.main-body .trade-info-box .user-telegram{
+    padding: 0!important;
+}
+
+.main-body .trade-info-box .user-telegram .box-mini .title {
+    font-size: 1rem;
+    color: #565656;
+    line-height: 40px;
+}
+
+.main-body .trade-info-box .user-telegram .box-mini .body {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    line-height: 30px;
+    height: 40px;
 }
