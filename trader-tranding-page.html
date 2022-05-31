@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <div class="overlay" style="display: none"></div>
     <div class="container">
         <!-- Layout Header -->
         <header class="header">
@@ -189,7 +190,7 @@
 
                             <div class="row">
                                 <div class="col p-12 t-12 m-12">
-                                    <button class="btn btn-green" disabled>BUY</button>
+                                    <button class="btn btn-green action-btn" id="buy-btn">BUY</button>
                                     <!--                                    <button class="btn btn-red">SELL</button>-->
                                 </div>
                             </div>
@@ -458,6 +459,20 @@
             $('.btn-close').on('click', function () {
                 $('#editModal').hide();
             })
+
+        //    Loading
+            const buyBtn = $("#buy-btn");
+
+            buyBtn.on('click', function (){
+                // Show loader on button click
+                buyBtn.addClass("loading");
+                $(".overlay").show();
+                // Hide loader after success/failure - here it will hide after 2seconds
+                setTimeout(function () {
+                    buyBtn.removeClass("loading");
+                    $(".overlay").hide();
+                },3000);
+            });
         })
     </script>
 </body>
