@@ -1,13 +1,6 @@
-/* PC max size*/
-@media (min-width: 1024px) and (max-width: 1239px) {
-}
+@media (min-width: 1024px) and (max-width: 2540px) {}
 
-/* PC */
-@media (min-width: 740px) and (max-width: 1023px) {
-    .auth-form__heading {
-        text-align: center;
-    }
-}
+@media (min-width: 740px) and (max-width: 1023px) {}
 
 /* Mobile và Tablet */
 @media (max-width: 1023px) {
@@ -25,14 +18,32 @@
     }
 
     .auth-form__content {
-        display: block;
+        display: none;
+    }
+    .footer {
+        position: relative;
+        bottom: 5px;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
     }
 }
 
-/* Mobile min size */
-@media (max-width: 380px) {
-    .auth-form__heading {
-        text-align: center;
+@media (max-width: 480px) {
+    .register .auth-form {
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 25px auto;
+    }
+    .auth-form__group {
+        margin-top: 20px;
+    }
+    .auth-form__controls {
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
     }
 }
 

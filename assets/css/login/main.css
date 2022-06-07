@@ -33,11 +33,11 @@ body {
     border: 2px solid #5f5c5c;
 }
 
-.auth-form {
+.login .auth-form {
     width: 520px;
     border-radius: 5px;
     overflow: hidden;
-    margin: 86px auto;
+    margin: 0 auto;
 }
 
 .auth-form__container {
@@ -106,7 +106,6 @@ body {
     padding: 0 12px;
     font-size: 1.4rem;
     border: 1px solid var(--border-color);
-    border-radius: 2px;
     outline: none;
     transition: all 0.18s linear;
     border-radius: 10px;
@@ -214,10 +213,11 @@ body {
 }
 
 .footer {
-    position: absolute;
-    bottom: 58px;
+    position: relative;
+    bottom: 10px;
     text-align: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 .footer__copyright-text {

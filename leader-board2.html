@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="assets/css/leader-board2/main.css">
     <link rel="stylesheet" href="assets/css/leader-board2/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link id="favico" rel="icon" type="image/png" href="https://bizweb.dktcdn.net/100/327/577/files/2.png" />
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link id="favico" rel="icon" type="image/png" href="https://bizweb.dktcdn.net/100/327/577/files/2.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Leader board 2</title>
@@ -21,39 +21,487 @@
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
 
-        <div id="header" class="grid row no-gutters">
-            <div class="brand-logo p-1 t-2 m-10">Logo</div>
-            <div class="header-search p-2 t-0 m-0">Search</div>
-            <div class="header-menu p-8 t-10 m-2">Menu</div>
-            <div class="account p-1 t-0 m-0">Account</div>
-        </div>
-
-        <div id="leader-board" class="grid row no-gutters">
-
-            <div class="sidebar-left row no-gutters p-2 t-12 m-12">
-                <div class="menu p-12 t-6 m-6">Menu</div>
-                <div class="top-follow p-12 t-6 m-6">Top Following</div>
-            </div>
-
-            <div class="main-body row no-gutters p-8 t-12 m-12">
-                <div class="daily-leader-board grid row no-gutters">
-                    <div class="table-1 p-6 t-6 m-12">Cột 1 bảng daily</div>
-                    <div class="table-2 p-6 t-6 m-12">Cột 2 bảng daily</div>
-                </div>
-                <div class="weekly-leader-board grid row no-gutters">
-                    <div class="table-1 p-6 t-6 m-12">Cột 1 bảng weekly</div>
-                    <div class="table-2 p-6 t-6 m-12">Cột 2 bảng weekly</div>
-                </div>
-            </div>
-
-            <div class="sidebar-right p-2 t-0 m-0">
-                SIDEBAR-RIGHT
-            </div>
-
-        </div>
+    <div id="header" class="grid row no-gutters">
+        <div class="brand-logo p-1 t-2 m-10">Logo</div>
+        <div class="header-search p-2 t-0 m-0">Search</div>
+        <div class="header-menu p-8 t-10 m-2">Menu</div>
+        <div class="account p-1 t-0 m-0">Account</div>
     </div>
+
+    <div id="leader-board" class="grid row no-gutters">
+
+        <div class="sidebar-left row no-gutters p-2 t-12 m-12">
+            <div class="menu p-12 t-6 m-6">Menu</div>
+            <div class="top-follow p-12 t-6 m-6">Top Following</div>
+        </div>
+
+        <div class="main-body row no-gutters p-8 t-12 m-12">
+            <div class="board daily-leader-board grid row no-gutters">
+                <div class="table-1 p-6 t-6 m-12">
+                    <div class="row">
+                        <h2>DAILY LEADERBOARD</h2>
+                    </div>
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <td class="number">01.</td>
+                                <td>
+                                    <a href="leader-board.html">
+                                        <div class="avt">
+                                            <img src="./assets/img/leader-board2/avt.png" alt="">
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="trading-name-td">
+                                    <a href="leader-board.html">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </a>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-green">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">02.</td>
+                                <td>
+                                    <a href="leader-board.html">
+                                        <div class="avt">
+                                            <img src="./assets/img/leader-board2/avt.png" alt="">
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="trading-name-td">
+                                    <a href="leader-board.html">
+                                        <div class="trading-name">TRADER 1 NAME</div>
+                                    </a>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-green">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">03.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">04.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">05.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                </div>
+                <div class="table-2 p-6 t-6 m-12">
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <td class="number">06.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">07.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">08.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">09.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">10.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="board daily-leader-board weekly-board grid row no-gutters">
+                <div class="table-1 p-6 t-6 m-12">
+                    <div class="row">
+                        <h2>WEEKLY LEADERBOARD</h2>
+                    </div>
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <td class="number">01.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-green">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">02.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-green">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">03.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">04.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">05.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                </div>
+                <div class="table-2 p-6 t-6 m-12">
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <td class="number">06.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">07.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">08.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">09.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="number">10.</td>
+                                <td><img src="./assets/img/leader-board2/icon-avt.png" alt=""></td>
+                                <td class="trading-name-td">
+                                    <div class="trading-name">TRADER 1 NAME</div>
+                                </td>
+                                <td class="hirate-td">
+                                    <div class="col">
+                                        <div class="hirate">HITRATE</div>
+                                        <div class="percent">68.01%</div>
+                                    </div>
+                                </td>
+                                <td class="pnl-per-td">
+                                    <div class="col pnl-per">
+                                        <p class="pnl">PNL</p>
+                                        <p class="percent percent-red">+15.64%</p>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-right p-2 t-0 m-0">
+            SIDEBAR-RIGHT
+        </div>
+
+    </div>
+</div>
 </body>
 
 </html>

@@ -1,31 +1,5 @@
-/*body {*/
-/*    font-family: Roboto, sans-serif;*/
-/*    background: #000000;*/
-/*    background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");*/
-/*}*/
-
-/*.main-body {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
-@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-
-:root {
-    --white-color: #fff;
-    --black-color: rgba(0, 0, 0, 0.7);
-    --yellow-color: #ffa927;
-    --grey-color: #5f5c5c;
-    --primary-color: #ee4d2d;
-    --text-color: #333;
-    --border-color: #dbdbdb;
-    --green-color: #2BB74A;
-    --red-color: #BA3518;
-    --brown-color: #2F2F2F;
-
-}
-
 body {
+    font-family: Roboto, sans-serif;
     background: #000000;
     background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
 }
@@ -35,6 +9,20 @@ html {
     text-align: center;
     color: aliceblue;
 }
+
+div {
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+}
+
+/**********************************************
+MAIN-BODY
+***********************************************/
 
 
 .chart img {
@@ -68,6 +56,9 @@ input[type="number"].entry {
     background-color: var(--yellow-color);
 }
 
+
+/*Trading list*/
+
 .trading-list {
     min-height: 300px;
 }
@@ -78,38 +69,31 @@ input[type="number"].entry {
     box-sizing: border-box;
 }
 
-.pending,
-.active,
-textarea {
+.pending, .active, textarea {
     border-radius: 10px;
     padding: 10px 15px 30px 15px;
     background-color: rgba(0, 0, 0, .7);
 }
 
 
-.pending .title,
-.active .title {
+.pending .title, .active .title {
     padding-left: 5px;
 }
 
-.pending h6,
-.active h6 {
+.pending h6, .active h6 {
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.pending table tr,
-.active table tr {
+.pending table tr, .active table tr {
     margin-bottom: 10px;
 }
 
-.pending .info,
-.active .info {
+.pending .info, .active .info {
     background-color: #2F2F2F;
 }
 
-.pending .coin,
-.active .coin {
+.pending .coin, .active .coin {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -131,21 +115,19 @@ table {
     font-weight: bold;
 }
 
-p.entry,
-p.pnl-title {
+p.entry, p.pnl-title {
     margin: 0;
     font-size: 8px;
 }
 
-p.price-value,
-p.pnl-value {
+p.price-value, p.pnl-value {
     margin: 0;
     font-size: 12px;
     font-weight: bold;
 }
 
 button.edit {
-    /* font-size: 12px; */
+    font-size: 12px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: #868686;
@@ -183,14 +165,10 @@ button.edit {
     color: #B81D1D;
 }
 
-.pending .info.price, .info.pnl {
+.info.price, .info.pnl {
     border-radius: 0 5px 5px 0;
     padding-right: 5px;
     box-sizing: border-box;
-}
-
-.info.price, .info.pnl {
-    text-align: center;
 }
 
 .trading-list .col {
@@ -215,8 +193,7 @@ textarea::placeholder {
     color: white;
 }
 
-input,
-textarea {
+input, textarea {
     font-size: initial !important;
 }
 
@@ -251,26 +228,17 @@ textarea {
 
 /* The Modal (background) */
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 50px;
-    /* Location of the box */
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -279,7 +247,7 @@ textarea {
 }
 
 .popup h3 {
-    /* margin: 10px; */
+    margin: 10px;
     text-align: left;
 }
 
@@ -292,7 +260,7 @@ textarea {
     border-radius: 15px;
 }
 
-.modal-content h3 {
+.modal-content p {
     margin: 0;
     margin-bottom: 5px;
     text-align: left;
@@ -307,19 +275,12 @@ textarea {
     box-sizing: border-box;
 }
 
-.modal .row .title {
-    padding: 0 10px;
-    box-sizing: border-box;
-}
-
-
 .modal-content input {
-    height: 30px;
+    height: 35px;
     background-color: #2F2F2F !important;
     padding-left: 10px;
     border-radius: 10px;
     border: none;
-    color: white !important;
 }
 
 .modal-content input[readonly] {
@@ -328,8 +289,8 @@ textarea {
 
 div.profit {
     padding: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 
 /* The Close Button */
@@ -347,27 +308,78 @@ div.profit {
     cursor: pointer;
 }
 
-.btn {
-    font-size: large;
+
+/*TRADER DETAIL*/
+.checked {
+    color: orange;
 }
 
-.edit {
-    font-size: 10px;
+.trader-data img#avatar {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-button:disabled,
-button[disabled], button[disabled]:hover {
-    border: 1px solid #999999;
-    background-color: #cccccc;
-    color: #666666;
-    cursor: default;
-    opacity: .5;
+.trader-data .avt-follow button {
+    width: 100%;
 }
 
-.error {
-    color: var(--red-color);
-    padding-left: 10px;
-    margin-top: 5px;
-    font-size: 0.6rem;
-    text-align: left;
+.trader-data p {
+    margin: 0;
+    color: #989898;
+    font-size: 12px;
+}
+
+.trader-data h4 {
+    margin: 0;
+}
+.hit-rate h4{
+    color: #ffa800;
+}
+
+.daily-pnl h4{
+    color: #338f57;
+}
+
+span.fa.fa-star {
+    font-size: 18px;
+}
+
+.trader-data .hit-rate, .trader-data .daily-pnl {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;}
+
+.trader-data .rating {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row.border-cover .col {
+    padding: 0 10px;
+}
+
+.trader-data .data-trade {
+    padding-bottom: 5px;
+}
+
+
+.btn.btn-follow {
+    background-color: #ffa800;
+    color: #fffff;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.btn.btn-following {
+    background-color: transparent;
+    color: #ffa800;
+    font-size: 16px;
+    border: 1px solid ffa800;
+    border-radius: 5px;
 }

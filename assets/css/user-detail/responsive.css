@@ -1,0 +1,67 @@
+@media (min-width: 1024px) and (max-width: 2540px) {}
+
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Mobile và Tablet */
+@media (max-width: 1023px) {
+    #user-detail .main-body {
+        padding: 20px;
+        background-image: url("../../img/user-detail/background.png");
+        border-radius: 20px;
+        /* margin: 20px; */
+    }
+}
+
+@media (max-width: 480px) {
+    #user-detail .main-body {
+        padding: 10px;
+        background-image: url("../../img/user-detail/background.png");
+        border-radius: 20px;
+        /* margin: 20px; */
+    }
+    .main-body .trade-info-box {
+        padding: 0 0 !important;
+        margin-top: 10px;
+    }
+
+    .main-body .trade-info-box .earn-money {
+        padding: 0!important;
+        margin-bottom: 10px;
+    }
+
+    .main-body .trade-info-box .earn-money-register {
+        padding: 0!important;
+        margin-bottom: 10px;
+    }
+    .infomation-box form {
+        background-color: var(--black-color);
+        border-radius: 20px;
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .infomation-box form h3 {
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 1.4rem;
+        color: #FFFFFF;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .code-box .col {
+         padding-left: 0px !important;
+         padding-right: 0px !important;
+         text-align: center;
+    }
+
+    .main-body .rank-acc-box .acc-up button{
+        font-size: 1.2rem;
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 374px) {}

@@ -85,7 +85,7 @@ html {
     background-color: #999;
 }
 
-/* .select-input {
+.select-input {
     position: relative;
     height: 34px;
     min-width: 200px;
@@ -147,8 +147,7 @@ html {
 
 .select-input:hover .select-input__list {
     display: block;
-} */
-
+}
 
 /* CUSTOM */
 .btn {
@@ -161,10 +160,12 @@ html {
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    opacity:.8;
-}
-.btn:hover{
     opacity: 1;
+}
+
+.btn:hover {
+    /*opacity: .75;*/
+    filter: brightness(125%);
 }
 
 .btn-green {
@@ -175,3 +176,70 @@ html {
     background-color: var(--red-color);
 }
 
+.sidebar-left, .sidebar-right {
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.sidebar-left img, .sidebar-right img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+html a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.action-btn {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+.action-btn::after {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    left: calc(50% - 0.75em);
+    top: calc(50% - 0.75em);
+    border: 0.25em solid transparent;
+    border-right-color: white;
+    border-radius: 50%;
+    animation: button-anim 0.6s linear infinite;
+    opacity: 0;
+}
+
+@keyframes button-anim {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.action-btn.loading {
+    color: transparent;
+}
+
+.action-btn.loading::after {
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background-color: #2f2f2f ;
+    z-index: 99;
+    opacity: .5;
+}
+.empty-data, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+}
