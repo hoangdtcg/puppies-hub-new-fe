@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/base.css">
 
-    <link rel="stylesheet" href="assets/css/header/main.css">
-    <link rel="stylesheet" href="assets/css/header/responsive.css">
     <link rel="stylesheet" href="assets/css/about/main.css">
     <link rel="stylesheet" href="assets/css/about/responsive.css">
 
@@ -24,74 +22,15 @@
 </head>
 
 <body>
-<div class="container">
-    <div class="overlay" style="display: none"></div>
-
-    <header class="header">
-        <div class="header__container">
-            <div class="grid">
-                <div class="row">
-                    <div class="col p-2 t-2 m-0">
-                        <div class="header__navbar-logo">
-                            <a href="/" class="header-logo__img">
-                                <img src="./assets/img/login/icon.png" class="header-logo__icon" alt="icon">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col p-8 t-8 m-0">
-                        <ul class="header__navbar-list">
-                            <input type="text" placeholder="Search" class="header__navbar-input">
-                            <li class="header__navbar-item">CRYPTO CONTENT</li>
-                            <li class="header__navbar-item">LEADER BOARD</li>
-                            <li class="header__navbar-item">MEMBERSHIP</li>
-                            <li class="header__navbar-item">ABOUT US</li>
-                            <li class="header__navbar-item">CONTACT</li>
-                        </ul>
-                    </div>
-
-                    <div class="col p-2 t-2 m-12">
-                        <div class="header__navbar-user">
-                            <a href="" class="header__navbar-link">
-                                <img src="./assets/img/header/logo.png" alt="logo" class="header__navbar-logo">
-                                <div class="header__navbar-name">
-                                    <p class="header__navbar-text">Xin chào</p>
-                                    <p class="header__navbar-text">Hoàng Dư Thanh</p>
-                                    <div class="header__navbar-premium">
-                                        <span class="header__navbar-text">Premium</span>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <div class="header__notify">
-                                <ul class="header__navbar-account">
-                                    <li class="info-header">
-                                        <div class="avt-header">
-                                            <img src="assets/img/user-detail/avt.png" alt="">
-                                        </div>
-                                        <p class="username-header">Hoang Du Thanh</p>
-                                        <p class="role-header"><span>Premium</span></p>
-                                    </li>
-                                    <li class="header__navbar-item profile-header">Thông tin cá nhân</li>
-                                    <li class="header__navbar-item trading-header">Thông tin Trading</li>
-                                    <li class="logout">Đăng xuất</li>
-                                    <li class="privacy">
-                                        <div class="col p-12 t-12 m-12">
-                                            <div class="row">
-                                                <div class="col p-6 t-6 m-6 privacy-left">Chính sách quyền riêng tư</div>
-                                                <div class="col p-6 t-6 m-6 privacy-right">Điều khoản dịch vụ</div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <div id="header" class="grid row no-gutters">
+            <div class="brand-logo p-1 t-2 m-10">Logo</div>
+            <div class="header-search p-2 t-0 m-0">Search</div>
+            <div class="header-menu p-8 t-10 m-2">Menu</div>
+            <div class="account p-1 t-0 m-0">Account</div>
         </div>
 
-        <div class="content">
+        <div id="content">
             <div>
                 <span>
                     About Us
@@ -127,66 +66,26 @@
                     </span>
                 </div>
             </div>
-            <div>
-                <span></span>
+            <div class="partner-section row no-gutters p-12 t-12 m-12">
+                <div>
+                    <span class="title-2">ĐỐI TÁC</span>
+                </div>
+                <div class="partner-logo">
+                    <img class="partner-image" src="./assets/img/home/partner-1.png" alt="partner1" />
+                    <img class="partner-image" src="./assets/img/home/partner-2.png" alt="partner2" />
+                    <img class="partner-image" src="./assets/img/home/partner-3.png" alt="partner3" />
+                </div>
             </div>
         </div>
 
-        <div class="header__modal">
-            <div class="screen">
-                <header>
-                    <a class="target-burger">
-                        <ul class="buns">
-                            <li class="bun"></li>
-                            <li class="bun"></li>
-                        </ul>
-                    </a>
-                </header>
-
-                <nav class="main-nav" role="navigation">
-                    <ul class="mobile-list">
-                        <input type="text" placeholder="Search" class="mobile-input__search">
-                        <li><a href=""><span>Home</span></a></li>
-                        <li><a href=""><span>Login</span></a></li>
-                        <li><a href=""><span>Register</span></a></li>
-                        <li><a href=""><span>Profile</span></a></li>
-                        <li><a href=""><span>Sign In</span></a></li>
-                    </ul>
-                </nav>
+        <div id="footer">
+            <div class="footer__bottom">
+                <div class="grid wide fix-wide-on-tablet">
+                    <p class="footer__copyright-text">2022 Puppies.com. All rights reserved</p>
+                </div>
             </div>
         </div>
-    </header>
-
-    <footer class="footer">
-        <div class="footer__bottom">
-            <div class="grid wide fix-wide-on-tablet">
-                <p class="footer__copyright-text">2022 Puppies.com. All rights reserved</p>
-            </div>
-        </div>
-    </footer>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.header__navbar-user').on('click', function (event) {
-
-            event.preventDefault();
-            $(this).find('.header__notify').toggle(200);
-            console.log($(this))
-
-            //Hide menu when clicked outside
-            $(this).mouseleave(function () {
-                var thisUI = $(this);
-                $('html').click(function () {
-                    thisUI.children(".header__notify").hide();
-                    $('html').unbind('click');
-                });
-            });
-
-        });
-    });
-</script>
+    </div>
 </body>
 
 </html>
