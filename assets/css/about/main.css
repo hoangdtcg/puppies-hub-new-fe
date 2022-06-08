@@ -1,0 +1,55 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #000000;
+  /* background-image: url("../../img/home/background.png"); */
+}
+
+#container {
+}
+
+.about-button {
+  height: 70px;
+  width: 290px;
+  background-image: url("../../img/about/about-us-btn.png");
+  background-size: cover;
+  background-position: center;
+}
+.about-button .text {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.quote .text {
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  color: #ffa927;
+}
+.description .text {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  /* text-align: left; */
+  color: #ffffff;
+}
+
+.you-can-section .you-can-text {
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  /* text-align: left; */
+  color: #ffffff;
+}
