@@ -120,13 +120,59 @@ MAIN-BODY
   top: -200px;
 }
 
+.insight {
+  padding: 0 64px;
+  margin-bottom: 120px;
+}
+
+.insight .box {
+  background: #000000;
+  border-radius: 20px;
+  padding: 54px 90px !important;
+}
+
+.insight .box .box-header {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.insight .description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #ffa927;
+}
+
+.insight .insight-button {
+  background: #262626;
+  border-radius: 20px;
+  width: 238px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.insight .insight-button a {
+  align-self: center;
+}
+
+.insight .items {
+  display: flex;
+}
+
+.insight .items .item img {
+  width: 100%;
+}
+
 .title-2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 60px;
   line-height: 70px;
-  text-align: center;
   text-transform: uppercase;
 }
 
