@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   background: #000000;
-  /* background-image: url("../../img/home/background.png"); */
+  background-image: url("../../img/about/background.png");
 }
 
 #container {
@@ -52,4 +52,22 @@ body {
   text-align: center;
   /* text-align: left; */
   color: #ffffff;
+}
+
+.mascot .mascot-image {
+
+}
+
+.mascot .mascot-text {
+  background: rgba(0, 0, 0, 0.64);
+  border-radius: 10px;
+
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffa927;  
 }
