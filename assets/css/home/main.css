@@ -1,7 +1,9 @@
 body {
   font-family: Roboto, sans-serif;
   background: #000000;
-  background-image: url("../../img/home/background.png");
+  background-image: url("../../img/home/background-home.png");
+  background-size: cover;
+  background-repeat: repeat-y;
 }
 
 html {
@@ -15,22 +17,107 @@ div {
   box-sizing: border-box;
 }
 
-.main-body {
-  display: flex;
-  flex-direction: row;
+.header {
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 0 64px !important;
+}
+.content {
   padding: 0 64px !important;
 }
 
 /**********************************************
 MAIN-BODY
 ***********************************************/
-.title-1 {
-  font-family: "Roboto";
+.banner {
+  background-image: url("../../img/home/banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 867px;
+  margin: 0 64px !important;
+  padding-top: 120px;
+}
+
+.banner .title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
-  line-height: 94px;
+  font-size: 2.5em;
+  display: block;
   text-align: right;
+  margin-bottom: 28px;
+  margin-right: 80px;
+}
+
+.banner .text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-right: 80px;
+  margin-bottom: 45px;
+}
+
+.banner .nav {
+  margin-right: 80px;
+  text-align: right;
+}
+
+.banner .button {
+  width: 243px;
+  height: 59px;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.banner .button.primary {
+  background-color: #ffa927;
+}
+
+.banner .button.secondary {
+  background-color: #8d4f7c;
+}
+
+.slogan {
+  height: 692px;
+}
+
+.slogan .slider {
+  display: flex;
+  padding: 0 64px;
+}
+
+.slogan .arrow {
+  flex: 0 0 200px;
+  /* justify-content: center; */
+  /* align-content: center; */
+  align-items: center;
+}
+
+.slogan .box {
+  flex: auto;
+  background: #000000;
+  border-radius: 20px;
+  height: 427px;
+  /* background-image: url("../../img/home/item-1.png");
+  background-repeat: no-repeat;
+  background-position: right; */
+}
+
+.slogan .item-1 {
+  height: 692px;
+  position: relative;
+  top: -200px;
 }
 
 .title-2 {
@@ -49,14 +136,7 @@ MAIN-BODY
   font-weight: 900;
   font-size: 40px;
   line-height: 47px;
-  color: #FF9900;
-}
-
-.banner-section {
-  background-image: url("../../img/home/banner.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 867px;
+  color: #ff9900;
 }
 
 .partner-logo {
