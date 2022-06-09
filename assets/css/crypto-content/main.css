@@ -1,0 +1,297 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #ffa927;
+    --grey-color: #5f5c5c;
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+    --violet-color: #552A3F;
+}
+
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+    background-size: cover;
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header,
+.main-body,
+.sidebar-right,
+.sidebar-left {
+    border: 1px solid white;
+}
+
+#crypto-content-body .main-body {
+    background-color: black;
+    padding: 25px 22px;
+}
+
+
+
+/* -----------------------------------------------------------------------
+--------------------------------------------------------------------------
+ROW-1
+--------------------------------------------------------------------------
+------------------------------------------------------------------------*/
+#crypto-content-body .main-body .row-1 {
+    margin-bottom: 119px;
+}
+
+#crypto-content-body .main-body .row-1 .col-1 {
+    padding-right: 10px;
+}
+
+#crypto-content-body .main-body .row-1 .col-1 img {
+    width: 100%;
+    height: 408px;
+}
+
+#crypto-content-body .main-body .row-1 .col-2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+#crypto-content-body .main-body .row-1 .col-2 .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 42px;
+    color: #C8C8C8;
+}
+
+#crypto-content-body .main-body .row-1 .col-2 .description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+#crypto-content-body .main-body .row-1 .col-2 .row-x {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.6rem;
+    color: #C8C8C8;
+}
+
+#crypto-content-body .main-body .row-1 .col-2 .row-x span {
+    color: var(--yellow-color);
+}
+
+#crypto-content-body .main-body .row-1 .col-2 .row-x p:first-child {
+    margin-right: 15px;
+}
+
+
+
+/* -----------------------------------------------------------------------
+--------------------------------------------------------------------------
+ROW-2
+--------------------------------------------------------------------------
+------------------------------------------------------------------------*/
+#crypto-content-body .main-body .row-2 {
+    margin-bottom: 37px;
+}
+
+#crypto-content-body .main-body .row-2 .row-head {
+    text-align: left;
+    display: flex;
+    flex-direction: column
+}
+
+#crypto-content-body .main-body .row-2 .row-head .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#crypto-content-body .main-body .row-2 .row-head .description {
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 22px;
+    color: #A9A9A9;
+}
+
+#crypto-content-body .main-body .row-2 .row-content {
+    display: flex;
+    text-align: left;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#crypto-content-body .main-body .row-2 .col {
+    padding: 0 10px;
+    margin-bottom: 58px;
+}
+
+#crypto-content-body .main-body .row-2 .row-content img {
+    width: 100%;
+    height: 310px;
+}
+
+#crypto-content-body .main-body .row-2 .row-content .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #C8C8C8;
+    margin: 14px 0 9px;
+}
+
+#crypto-content-body .main-body .row-2 .row-content .description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+#crypto-content-body .main-body .row-2 .row-content span {
+    color: var(--yellow-color);
+}
+
+#crypto-content-body .main-body .row-2 .row-content .row-x {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#crypto-content-body .main-body .row-2 .row-content .row-x p:first-child {
+    margin-right: 20px;
+}
+
+#crypto-content-body .main-body .row-2 .row-banner img {
+    width: 100%;
+}
+
+
+
+/* -----------------------------------------------------------------------
+--------------------------------------------------------------------------
+ROW-3
+--------------------------------------------------------------------------
+------------------------------------------------------------------------*/
+#crypto-content-body .main-body .row-3 {
+    margin: 0 10px;
+    margin-bottom: 37px;
+}
+
+#crypto-content-body .main-body .row-3 p {
+    text-align: left;
+}
+
+#crypto-content-body .main-body .row-3 .row-head .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#crypto-content-body .main-body .row-3 .row-head .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+#crypto-content-body .main-body .row-3 .row-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+}
+
+#crypto-content-body .main-body .row-3 .row-content .col-img {
+    padding-top: 45px;
+    border-top: 1px solid white;
+    padding-right: 10px;
+    height: 203px;
+}
+
+#crypto-content-body .main-body .row-3 .row-content img {
+    width: 100%;
+    border-radius: 10px;
+    height: 203px;
+}
+
+#crypto-content-body .main-body .row-3 .row-content .col-content {
+    padding-left: 30px;
+    padding-top: 45px;
+    margin: auto;
+}
+
+#crypto-content-body .main-body .row-3 .row-content .col-content p {
+    margin: 0;
+}
+
+#crypto-content-body .main-body .row-3 .row-content .col-content .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #C8C8C8;
+    margin-bottom: 9px;
+}
+
+#crypto-content-body .main-body .row-3 .row-content .col-content .description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+#crypto-content-body .main-body .row-3 .row-content span {
+    color: var(--yellow-color);
+}
+
+#crypto-content-body .main-body .row-3 .row-content .row-x {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#crypto-content-body .main-body .row-3 .row-banner {
+    margin-top: 95px;
+}
+
+#crypto-content-body .main-body .row-3 .row-banner img {
+    width: 100%;
+}
