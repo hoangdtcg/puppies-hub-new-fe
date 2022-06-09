@@ -195,10 +195,3 @@ MAIN-BODY
 .partner-image {
   margin: 98px;
 }
-
-/**********************************************
-Footer
-***********************************************/
-#footer {
-  background-color: var(--black-color);
-}
