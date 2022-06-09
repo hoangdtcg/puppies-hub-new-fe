@@ -223,6 +223,7 @@ ROW-3
     font-weight: 700;
     font-size: 0.7rem;
     color: #FFFFFF;
+    margin-bottom: -45px;
 }
 
 #crypto-content-body .main-body .row-3 .row-content {
@@ -233,6 +234,7 @@ ROW-3
 }
 
 #crypto-content-body .main-body .row-3 .row-content .col-img {
+    margin-top: 45px;
     padding-top: 45px;
     border-top: 1px solid white;
     padding-right: 10px;
