@@ -1,0 +1,120 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #ffa927;
+    --grey-color: #5f5c5c;
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+    --violet-color: #552A3F;
+}
+
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+    background-size: cover;
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header,
+.main-body,
+.sidebar-right,
+.sidebar-left,
+.col-1,
+.col-2 {
+    border: 1px solid white;
+}
+
+#contact-us-body {
+    display: flex;
+}
+
+#contact-us-body .main-body {
+    margin: auto;
+}
+
+#contact-us-body .main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact-us-body .main-body .col-1 {
+    padding-right: 70px;
+}
+
+#contact-us-body .main-body .col-1 .row {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#contact-us-body .main-body .col-1 .row .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#contact-us-body .main-body .col-1 input,
+#contact-us-body .main-body .col-1 textarea {
+    height: 73.14px;
+    background-color: rgba(89, 89, 89, 0.49);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+#contact-us-body .main-body .col-1 textarea {
+    height: 155px;
+    margin-bottom: 66px;
+}
+
+.btn-submit {
+    background-color: var(--yellow-color) !important;
+    color: var(--black-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+#contact-us-body .main-body .col-2 {
+    padding-left: 70px;
+    text-align: left;
+    padding-right: 150px;
+}
+
+#contact-us-body .main-body .col-2 .row-img-2 {
+    /* margin-left: -140px; */
+}
+
+#contact-us-body .main-body .col-2 .row-img-2 img {
+    width: 100%;
+}
+
+#contact-us-body .main-body .col-2 .row-img-1 img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#contact-us-body .main-body .row-footer {
+    margin-top: 134px;
+    margin-bottom: 55px;
+}
