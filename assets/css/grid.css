@@ -21,10 +21,10 @@
     margin-right: 0;
 }
 
-.col {
-    padding-left: 4px;
-    padding-right: 4px;
-}
+/*.col {*/
+/*    padding-left: 4px;*/
+/*    padding-right: 4px;*/
+/*}*/
 
 .row.no-gutters .col {
     padding-left: 0;
