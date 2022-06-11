@@ -1,0 +1,15 @@
+{
+  "name": "puppies-hub-new-fe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hoangdtcg/puppies-hub-new-fe.git",
+  "author": "HOÀNG THẾ BẢO <hoang.the.bao@mqsolutions.com.vn>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  }
+}
