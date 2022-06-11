@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update user detail">
-      <change afterPath="$PROJECT_DIR$/assets/css/membership/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/membership/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/membership/basic-pack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/membership/free-pack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/membership/membership-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/membership/premium-pack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/membership/supreme-pack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/membership.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/home2/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home2/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/home2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/membership/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/membership/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/membership.html" beforeDir="false" afterPath="$PROJECT_DIR$/membership.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +57,7 @@
       <workItem from="1654101824344" duration="45000" />
       <workItem from="1654538975803" duration="7097000" />
       <workItem from="1654793729829" duration="567000" />
-      <workItem from="1654872888688" duration="7420000" />
+      <workItem from="1654872888688" duration="8288000" />
     </task>
     <task id="LOCAL-00001" summary="update user detail">
       <created>1653930723816</created>
