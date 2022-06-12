@@ -1,0 +1,196 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #ffa927;
+    --grey-color: #5f5c5c;
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+    --violet-color: #552A3F;
+}
+
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+    background-size: cover;
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.header,
+.main-body,
+.sidebar-right,
+.sidebar-left {
+    border: 1px solid white;
+}
+
+#about-us-body {
+    display: flex;
+}
+
+#about-us-body .main-body {
+    margin: auto;
+    padding: 150px 0;
+}
+
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+ROW-1
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+#about-us-body .main-body .row-1 {
+    text-align: center;
+    display: flex;
+}
+
+#about-us-body .main-body .row-1 .title {
+    background-image: url(../../img/about-us/background-btn.png);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 31px 0;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 65px;
+}
+
+#about-us-body .main-body .row-1 .description {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 35px;
+    color: #FFA927;
+    margin-bottom: 41px;
+}
+
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+ROW-2
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+#about-us-body .main-body .row-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+ROW-3
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+#about-us-body .main-body .row-3 {
+    display: flex;
+}
+
+#about-us-body .main-body .row-3 .title {
+    margin: auto;
+    margin-top: 129px;
+    margin-bottom: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+#about-us-body .main-body .row-3 .box {
+    width: 100%;
+    position: relative;
+}
+
+#about-us-body .main-body .row-3 .box .box-main {
+    width: 100%;
+}
+
+#about-us-body .main-body .row-3 .box .box-main img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#about-us-body .main-body .row-3 .box .box-content {
+    padding-left: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#about-us-body .main-body .row-3 .box .box-content p {
+    background: rgba(0, 0, 0, 0.64);
+    border-radius: 10px;
+    text-align: left;
+    padding: 11px 50px 11px 32px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 33px;
+
+    color: #FFA927;
+}
+
+@media (max-width:1180px) {
+
+    #about-us-body .main-body .row-3 .box .box-content {
+        padding-left: 0;
+        position: static;
+    }
+}
+
+
+
+/*--------------------------------------------------------------
+----------------------------------------------------------------
+ROW-4
+----------------------------------------------------------------
+--------------------------------------------------------------*/
+#about-us-body .main-body .partner-box {
+    margin-top: 75px;
+    /* background-color: yellowgreen; */
+}
+
+#about-us-body .main-body .partner-box .title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 75px;
+}
+
+#about-us-body .main-body .partner-box .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-us-body .main-body .partner-box .row .col {
+    display: flex;
+}
+
+#about-us-body .main-body .partner-box .row img {
+    width: 100%;
+    margin: auto;
+}
