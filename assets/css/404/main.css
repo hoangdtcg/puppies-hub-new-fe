@@ -1,0 +1,77 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --yellow-color: #ffa927;
+    --grey-color: #5f5c5c;
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+    --violet-color: #552A3F;
+}
+
+body {
+    background: #000000;
+    background-image: url("../../img/leader-board/background.png");
+    background-size: cover;
+}
+
+html {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#error-page {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#error-page .main-body {
+    background-image: url("../../img/leader-board/background.png");
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 15px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 62px 72px;
+}
+
+#error-page .main-body .col-1 {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+#error-page .main-body .col-1>* {
+    margin-bottom: 35px;
+}
+
+#error-page .main-body .col-1 img.img-error {
+    width: 100%;
+}
+
+#error-page .main-body .col-1 .brand img {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    padding: 12px 50px;
+}
+
+#error-page .main-body .col-2 {
+    display: flex;
+}
+
+#error-page .main-body .col-2 img {
+    width: 100%;
+    margin: auto;
+}
