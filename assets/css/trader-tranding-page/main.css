@@ -25,16 +25,23 @@
 
 }
 
-body {
+html body {
     background: #000000;
     background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-html {
-    font-size: 20px;
-    text-align: center;
-    color: aliceblue;
-}
+/*html {*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    color: aliceblue;*/
+/*}*/
 
 
 .chart img {
@@ -72,7 +79,7 @@ input[type="number"].entry {
     min-height: 300px;
 }
 
-.trading-list .col {
+.trading-list .grid-col {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
@@ -92,15 +99,17 @@ textarea {
     padding-left: 5px;
 }
 
-.pending h6,
-.active h6 {
+.pending h2,
+.active h2 {
     margin-top: 10px;
     margin-bottom: 15px;
+    color: var(--white-color);
 }
 
 .pending table tr,
 .active table tr {
     margin-bottom: 10px;
+    padding: 0 10px;
 }
 
 .pending .info,
@@ -122,6 +131,7 @@ table {
     width: 100%;
     padding: 5px;
     border-spacing: 0 5px;
+    border-collapse: separate!important;
 }
 
 .info.coin {
@@ -156,9 +166,8 @@ button.edit {
 
 .label-command {
     display: block;
-    /*padding: .2em .6em .3em;*/
-    font-size: 50%;
-    line-height: 2;
+    font-size: .7rem;
+    line-height: 3;
     color: #ffffff;
     text-align: center;
     white-space: nowrap;
@@ -193,7 +202,7 @@ button.edit {
     text-align: center;
 }
 
-.trading-list .col {
+.trading-list .grid-col {
     padding-left: 5px !important;
     padding-right: 5px !important;
     box-sizing: border-box;
@@ -228,29 +237,29 @@ textarea {
     margin-bottom: 10px;
 }
 
-.action .row .col {
+.action .grid-row .grid-col {
     padding: 0 5px !important;
     box-sizing: border-box;
 }
 
-.profit .row .col {
+.profit .grid-row .grid-col {
     padding: 0 2px 0 0;
 }
 
-.btn-selected {
+html body button.btn-selected {
     border: 2px solid #ffa927;
 }
 
-.btn-close {
+html body button.btn-close {
     background-color: #2f2f2f;
 }
 
-.btn-update {
+html body button.btn-update {
     background-color: #8D4F7C;
 }
 
 /* The Modal (background) */
-.modal {
+.grid-modal {
     display: none;
     /* Hidden by default */
     position: fixed;
@@ -274,16 +283,23 @@ textarea {
 }
 
 /* Modal Content */
-.popup {
+.grid-popup {
     margin: auto;
 }
 
-.popup h3 {
-    /* margin: 10px; */
+.grid-popup h3 {
+    margin: 10px;
     text-align: left;
+    color: var(--white-color);
+
+}
+.grid-popup h1 {
+    margin: 10px;
+    text-align: left;
+    color: var(--white-color);
 }
 
-.modal-content {
+.grid-modal-content {
     background-color: #0B0B0B;
     margin: auto;
     padding: 20px;
@@ -292,28 +308,28 @@ textarea {
     border-radius: 15px;
 }
 
-.modal-content h3 {
+.grid-modal-content h3 {
     margin: 0;
     margin-bottom: 5px;
     text-align: left;
 }
 
-.modal-content input {
+.grid-modal-content input {
     width: 100%;
 }
 
-.modal .row .col {
+.grid-modal .grid-row .grid-col {
     padding: 10px 10px;
     box-sizing: border-box;
 }
 
-.modal .row .title {
+.grid-modal .grid-row .title {
     padding: 0 10px;
     box-sizing: border-box;
 }
 
 
-.modal-content input {
+.grid-modal-content input {
     height: 30px;
     background-color: #2F2F2F !important;
     padding-left: 10px;
@@ -322,7 +338,7 @@ textarea {
     color: white !important;
 }
 
-.modal-content input[readonly] {
+.grid-modal-content input[readonly] {
     background-color: #656565 !important;
 }
 
@@ -368,6 +384,6 @@ button[disabled], button[disabled]:hover {
     color: var(--red-color);
     padding-left: 10px;
     margin-top: 5px;
-    font-size: 0.6rem;
+    font-size: .6rem;
     text-align: left;
 }

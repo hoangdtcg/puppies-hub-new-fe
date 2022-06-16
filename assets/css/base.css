@@ -16,7 +16,7 @@
     box-sizing: inherit;
 }
 
-html {
+html body {
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
@@ -150,7 +150,7 @@ html {
 }
 
 /* CUSTOM */
-.btn {
+html body button.btn {
     border-radius: 10px;
     padding: 10px 0;
     width: 100%;
@@ -163,16 +163,17 @@ html {
     opacity: 1;
 }
 
-.btn:hover {
+html body button.btn:hover {
     /*opacity: .75;*/
+    color: rgba(255, 255, 255, 0.75) !important;
     filter: brightness(125%);
 }
 
-.btn-green {
+html body button.btn-green {
     background-color: var(--green-color);
 }
 
-.btn-red {
+html body button.btn-red {
     background-color: var(--red-color);
 }
 
@@ -186,7 +187,7 @@ html {
     margin-bottom: 5px;
 }
 
-html a{
+html body a{
     color: var(--white-color);
     text-decoration: none;
 }
