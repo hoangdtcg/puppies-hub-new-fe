@@ -108,3 +108,24 @@ p.blog-time {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+a.list-group-item {
+    display: block;
+    padding: 25px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+a.list-group-item i{
+    color:orange
+}
+
+a.list-group-item:hover {
+    background-color: #47454587;
+}
+
+.category-list {
+    min-height: 600px;
+    background-color: rgba(0 0 0 .6);
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

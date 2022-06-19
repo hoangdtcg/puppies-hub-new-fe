@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update css">
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/crypto-content-blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/crypto-content-blog/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/crypto-content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/crypto-content/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +68,7 @@
       <workItem from="1654872888688" duration="8288000" />
       <workItem from="1655456066459" duration="41000" />
       <workItem from="1655625986099" duration="6304000" />
+      <workItem from="1655648543331" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="update user detail">
       <created>1653930723816</created>
