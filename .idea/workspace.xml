@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update css">
+    <list default="true" id="f0932e0e-ebba-4fb6-911c-604ef254ebbc" name="Changes" comment="update sidebar category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/crypto-content/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/crypto-content/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1654872888688" duration="8288000" />
       <workItem from="1655456066459" duration="41000" />
       <workItem from="1655625986099" duration="6304000" />
-      <workItem from="1655648543331" duration="3086000" />
+      <workItem from="1655648543331" duration="9362000" />
     </task>
     <task id="LOCAL-00001" summary="update user detail">
       <created>1653930723816</created>
@@ -84,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655371773757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update sidebar category">
+      <created>1655660277002</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655660277002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update user detail" />
     <MESSAGE value="update css" />
-    <option name="LAST_COMMIT_MESSAGE" value="update css" />
+    <MESSAGE value="update sidebar category" />
+    <option name="LAST_COMMIT_MESSAGE" value="update sidebar category" />
   </component>
 </project>
