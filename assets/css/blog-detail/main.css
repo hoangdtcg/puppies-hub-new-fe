@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+:root {
+    --white-color: #fff;
+    --black-color: rgba(0, 0, 0, 0.7);
+    --yellow-color: #ffa927;
+    --grey-color: #5f5c5c;
+    --primary-color: #ee4d2d;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+    --green-color: #2BB74A;
+    --red-color: #BA3518;
+    --brown-color: #2F2F2F;
+
+}
+
+html body {
+    background: #000000;
+    background-image: url("../../img/trader-trading-page/background_trader-trading-page.png");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-post img {
+    width: 100%;
+}
+
+.blog-info {
+    padding-left: 25px;
+    padding-right:25px;
+    text-align:
+            left;
+    margin-top: 20px;
+}
+
+.blog-info .title {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.blog-info .short-content {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.author-name,.blog-time {
+    font-size: 1.5rem;
+}
+
+span.author-blog-name {
+    color: var(--orange);
+}
+.box-content-1 {
+    margin-bottom: 25px;
+}
+hr.clear-main{
+    margin-top: 50px;
+    margin-bottom:50px;
+    width: 20%;
+    margin-left: 0;
+}
+hr.clear-main-blog{
+    margin-top: 50px;
+    margin-bottom:50px;
+    width: 33%;
+    margin-left: 0;
+}
+h1.editor-title {
+    color: var(--white);
+}
+
+p.editor-content {
+    font-size: 1.5rem;
+    color: #A9A9A9;
+}
+
+.box-blog {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+}
+.box-blog .blog-info .title,.bog-list-3 .blog-info .title {
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.box-blog .blog-info .short-content,  .blog-list-3 .blog-info .short-content{
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+p.blog-time {
+    text-align: right;
+}
+
+.ads-img {
+    width: 100%;
+}
+
+.ads-1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+a.list-group-item {
+    display: block;
+    padding: 25px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+a.list-group-item i{
+    color:orange
+}
+
+a.list-group-item:hover {
+    background-color: #47454587;
+}
+
+.category-list {
+    min-height: 600px;
+    background-color: rgba(0 0 0 .6);
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#crypto-blog-detail .blog-info{
+    max-width: 1024px;
+    margin: auto;
+}
+#crypto-blog-detail .box-blog{
+    border: none;
+    margin-bottom: 50px;
+}
+#crypto-blog-detail .title{
+    font-size: 3rem;
+}
+#crypto-blog-detail .blog-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
