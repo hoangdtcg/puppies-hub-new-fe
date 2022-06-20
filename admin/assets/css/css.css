@@ -1,0 +1,121 @@
+﻿@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
+}
+
+.container-fluid .admin {
+  margin-top: 46px;
+  position: relative;
+}
+
+.container-fluid .admin-first {
+  background-image: url("../images/admin/layout_01.png");
+  height: 31px;
+}
+
+.container-fluid .admin-second {
+  background: linear-gradient(45deg, #ecb444, #fca040);
+  height: 180px;
+  padding: 0 24px;
+}
+
+.container-fluid .admin-second-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.container-fluid .admin-user {
+  color: #fff;
+}
+
+
+.container-fluid .admin-heading {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.container-fluid .admin-main-table {
+  background-color: #fff;
+  margin-top: 14px;
+  border-radius: 8px;
+  width: 96%;
+  position: absolute;
+  top: 48%;
+  left: 2%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  min-height: 100vh;
+  padding: 46px;
+}
+
+button.add-new {
+  cursor: pointer;
+  padding: 8px 24px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background: linear-gradient(45deg, #ecb444, #fca040);
+  margin-bottom: 2px;
+}
+
+button.btn-apply {
+  background: #2ca444;
+  color: #fff;
+}
+
+#answer-sort-menu {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: pointer;
+  min-width: 250px;
+  border-radius: 6px
+}
+
+#answer-sort-menu .dropdown-item {
+  padding: 4px 16px;
+}
+
+.container-fluid .left-layout,
+.container-fluid .right-layout {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 80vh;
+}
+
+
+.container-fluid .main-text {
+  font-size: 18px;
+  margin-top: 24px;
+}
